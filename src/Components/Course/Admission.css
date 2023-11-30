@@ -1,0 +1,35 @@
+.admission_content_container{
+    margin-top: 5rem;
+}
+.adimission_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #3C427B;
+    color: #fff;
+    width: 20rem;
+    padding: 25px;
+    height: 320px;
+    box-shadow: none;
+    border-radius: 30px;
+}
+.adimission_card_img{
+width: 80px;
+height: 80px;
+margin: auto;
+}
+.card_heading1{
+    font-weight: 500;
+    font-size: 20px;
+}
+.card_heading2{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.admission_content_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+.skill_containerFluid{
+    margin-top: 5rem;
+}
+.skill_content_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.maincourse_text_wrapper{
+    width: 42%;
+}

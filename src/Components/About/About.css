@@ -1,0 +1,135 @@
+.about_container_fluid{
+    height: 90vh;
+    background-color: #39417A;
+}
+.about_content_container{
+ display: flex;
+justify-content: space-between;
+ align-items: flex-start;
+ color: #fff;
+}
+.about_cards_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+.abouttop_heading_wrapper{
+    min-width: 50%;
+    text-align: left;
+    margin: 12% 0px 0px 5%;
+}
+.about_card{
+    background-color: #3C427B;
+    box-shadow: none;
+    border-radius: 20px;
+    color: #fff;
+    height: 300px;
+    width: 16rem;
+}
+.about_cards_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-top: -25px;
+}
+.about_card_img{
+    margin-top: -50px;
+    width: 80px;
+    height: 80px;
+}
+.about_topcards_title{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.about_cards_text{
+    font-size: 14px;
+    font-weight: 500;
+}
+/*  */
+.aboutus_flex_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutus_img{
+width: 90%;
+}
+.aboutus_text_wrapper{
+margin-left: auto;
+width: 45%;
+}
+.founder_content_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.founder_text_wrapper{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: auto;
+}
+.about2_container_fluid{
+    margin-top: 5rem;
+}
+.vision_containerFluid{
+    margin-top: 5rem;
+}
+.mission_containerFluid{
+    margin-top: 5rem;
+}
+.Founder_containerFluid{
+    margin-top: 5rem;
+}
+/*  */
+@media (max-width: 767px) {
+    .about_cards_container{
+flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+    gap:50px;
+    }
+    .about_card{
+     width: 90%;
+     margin: auto;
+     height: 200px;
+    }
+    .about_topcards_title{
+        font-size: 16px;
+     }
+    .about_cards_text{
+        font-size: 14px;
+     }
+     .aboutus_flex_wrapper{
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .aboutus_text_wrapper{
+        margin-left: auto;
+        width: 95%;
+        }
+        .founder_content_div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .founder_text_wrapper{
+            width: 95%;
+            flex-direction: column;
+            margin: auto;
+        }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  }

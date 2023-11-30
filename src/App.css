@@ -1,0 +1,35 @@
+.App {
+  font-family: poppins;
+}
+
+.page_heading{
+  font-size: 32px;
+  font-weight: 700;
+ text-transform: capitalize;
+ line-height: normal;
+ color: #1C267D;
+}
+.page_text{
+  font-size: 20px;
+}
+.center_heading_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .page_heading{
+  font-size: 16px;
+}
+.page_text{
+  font-size: 14px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}

@@ -1,0 +1,25 @@
+.upcoming_containerFluid{
+    margin-top: 5rem;
+}
+.upcoming_card_courses_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.upcourse_cards{
+    height: 100%;
+    width: 20rem;
+    border-radius: 30px;
+}
+.up_card_img{
+    width: 80%;
+    height: 100%;
+}
+.up_card_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: 80%;
+}

@@ -1,0 +1,40 @@
+.Jee_cards_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+.Jee_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C427B;
+    color: #fff;
+    width: 170px;
+    height: 160px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.yourpath_content_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yourpath_textwrapper{
+    width: 45%;
+}
+.jee_rect{
+    min-width: 100%;
+}
+.yourpath_img{
+    width: 65%;
+    height: 100%;
+}
+/*  */
+.about_IITJEE_content_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

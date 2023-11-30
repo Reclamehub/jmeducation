@@ -1,0 +1,52 @@
+.innovation_containerFluid{
+    margin-top: 5rem;
+}
+.innovation_content_container{
+    display: flex;
+    justify-content: space-around;
+}
+.innovation_card_img{
+    width: 80%;
+    height: 100%;
+    margin-top: 2rem;
+ 
+}
+.innovation_cards{
+    width: 17rem;
+    background-color: transparent;
+    box-shadow: none;
+  border-radius: 40px;
+    height: 100%;
+    padding: 0px; 
+    text-align: left;
+}
+.innovation_card_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: flex-start;
+    margin-right: auto;
+    margin-left: 20px;
+}
+.our-card-heading{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .innovation_content_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .innovation_cards{
+        width: 95%;
+
+    } 
+    .our-card-heading{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

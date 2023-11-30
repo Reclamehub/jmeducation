@@ -1,0 +1,121 @@
+.getin_containerFluid{
+  margin-top: 5rem;
+}
+.getin_content_container{
+  width: 80%;
+  box-shadow: 0px 3px 2px 1px gray;
+  padding: 2% 0px;
+  border-radius: 20px;
+}
+.center_heading_div{
+  min-width: 80%;  
+}
+.footer_wrapper2{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 14px;
+margin: auto;
+}
+.footer_links{
+    text-transform: capitalize;
+ text-decoration: none;
+ color: #fff;
+}
+.footer_links:hover{
+color: #EBC770;
+}
+.footer_errorbox{
+    margin-right: 2px;
+    border: none;
+   
+    }
+.custom-button{
+    margin-left: -100px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #3C427B;
+}
+.footer_field_group {
+    display: flex;
+    justify-content: center;
+align-items: center;
+    margin: auto;
+   width: 275px;
+ margin: 2rem auto 0px 0px;
+    position: relative;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    color: #000 !important;
+    }
+  .footer_form_fields {
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 38px;
+    width: 100%;
+   background-color: #fff;
+   color: #000 !important;
+  border: none;
+  outline: 1px solid #7177AE;
+  border-radius: 30px;
+  margin-right: auto;
+  }
+
+  .footer_form_fields:focus~label,
+.footer_form_fields:valid~label {
+  padding-top: 2.5px;
+  top: -2px;
+  left: 20px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+}
+.footer_form_fields:hover{
+  color: #000 !important;
+  border: none;
+  outline: none;
+  background-color: none;
+ }
+
+.footer_form_labels {
+   position: absolute;
+    top: 12px;
+    left: 15px;
+    font-size: 15px;
+   pointer-events: none;
+    transition: 0.2s;
+  color: #000;
+  }
+  .error {
+    color: red;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer_brand{
+    margin-top: -15px;
+    height: 100%;
+    width: 125px;
+  }
+  @media (max-width: 767px) {
+    .getin_content_container{
+      width: 100%;
+
+    }
+    .center_heading_div{
+      min-width: 100%;  
+    }
+    .footer_field_group {
+
+   margin: 5px auto 10px auto;
+
+      }
+  }

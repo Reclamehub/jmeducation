@@ -1,0 +1,15 @@
+.teacher_container_Fluid{
+    margin-top: 5rem;
+}
+.teacher_content_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.teachers_images_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

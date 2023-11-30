@@ -1,0 +1,42 @@
+/* Contact.css */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* Adjust the max-width as needed */
+    margin: auto;
+  }
+  
+  .contact_form_group {
+    margin-bottom: 20px;
+  }
+  
+  label{
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  span {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,35 @@
+.inst_content_containerFluid{
+    margin-top: 5rem;
+}
+.inst_content_container{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.inst_text_wrapper{
+    width: 45%;
+    margin-top: 5%;
+}
+.instructor_img_wrapper{
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .inst_content_container{
+  flex-direction: column;
+  justify-content: center;
+        }
+        .inst_text_wrapper{
+            width: 100%;
+            margin-top: 0px;
+    }
+    .instructor_img_wrapper{
+        width: 100%;
+        margin: auto;
+    }
+    .instructor_img{
+        margin: auto;
+        width: 100%;
+    }
+}

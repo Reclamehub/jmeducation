@@ -1,0 +1,56 @@
+.testi_client_containerFluid{
+    margin-top: 5rem;
+}
+
+.slider_main_div {
+width: 60%;
+color: #fff;
+background-color: #3C427B;
+border-radius: 40px;
+padding: 3% ;
+ }
+.slider{
+color: black;
+}
+.exp_heading_div{
+    width: 50%;
+}
+.slider-item {
+    height: 100%;
+    width: 100%;
+ margin: auto;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 500;
+    width:95%;
+    color: #fff;
+    margin: auto;
+  }
+
+@media (max-width: 767px) {
+    .exp_heading_div{
+        width: 95%;
+    }
+    .testimonial-text {
+    font-size: 12.5px;
+    }
+
+.slider_main_div {
+    width: 95%;
+    padding: 3% 5%;
+    
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .slider_main_div {
+        width: 80%;
+    }
+}

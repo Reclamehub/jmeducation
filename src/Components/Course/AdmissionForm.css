@@ -1,0 +1,54 @@
+.form_main_container{
+    background-color: #3C427B;
+ padding: 20px;
+ border-radius: 30px;
+ width: 100%;
+ color: #fff;
+ padding: 3rem 3rem;
+}
+.admissionform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: #fff;
+ }
+.form_group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fff;
+}
+.form_fields{
+    width: 290px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    /* mix-blend-mode: lighten;
+    opacity: 0.52; 
+    color: #fff !important; */
+}
+
+.form_wrapper1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.form_wrapper2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.course_from_btn{
+    background-color: #FF2180;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    margin-left: auto;
+}
