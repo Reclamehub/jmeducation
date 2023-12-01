@@ -138,8 +138,9 @@ const AdmissionForm = () => {
             {errors.batch && <span>{errors.batch}</span>}
           </div>
         </div>
-
+<div className='form_btn_div'>
         <button className="course_from_btn"type="submit">send enquiry</button>
+        </div>
       </form>
     </Container>
   );

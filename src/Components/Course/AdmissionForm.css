@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     color: #fff;
  }
 .form_group{
@@ -35,13 +35,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
 }
 .form_wrapper2{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+}
+.form_btn_div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+margin-left: auto;
+margin-right: -45px;
 }
 .course_from_btn{
     background-color: #FF2180;
@@ -51,4 +58,5 @@
     padding: 10px 15px;
     text-transform: uppercase;
     margin-left: auto;
+
 }

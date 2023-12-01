@@ -92,7 +92,7 @@ const About = () => {
       <div className='founder_text_wrapper'>
 <p className='page_heading'>Founder</p>
 <p>Mrs. Jyoti Thakur Vartak:</p>
-<p>With over two decades in education, Mrs. Jyoti Thakur Vartak brings a wealth of experience. Starting as a teacher, she gained valuable insights into classroom dynamics. Transitioning to the tech sector, she excelled in user experience design and product management, honing her skills in creating effective, learner-centric solutions.</p>
+<p className='page_text'>With over two decades in education, Mrs. Jyoti Thakur Vartak brings a wealth of experience. Starting as a teacher, she gained valuable insights into classroom dynamics. Transitioning to the tech sector, she excelled in user experience design and product management, honing her skills in creating effective, learner-centric solutions.</p>
       </div>
 
       <div>
@@ -106,8 +106,8 @@ const About = () => {
       <div className='founder_text_wrapper'>
 <p className='page_heading'>Co-Founder & CEO</p>
 <p>Mr. Manohar Vartak</p>
-<p>With the goal of revolutionizing the accessibility and delivery of education, Mr. Manohar Vartak co-founded our EdTech company and has fifteen years of broad and diverse experience in the domains of technology and education. After holding executive roles in renowned educational technology businesses.</p>
-<p>Mr. Manohar Vartak co-founded the business and played a key role in developing innovative solutions to enhance the educational process.</p>
+<p className='page_text'>With the goal of revolutionizing the accessibility and delivery of education, Mr. Manohar Vartak co-founded our EdTech company and has fifteen years of broad and diverse experience in the domains of technology and education. After holding executive roles in renowned educational technology businesses.</p>
+<p className='page_text'>Mr. Manohar Vartak co-founded the business and played a key role in developing innovative solutions to enhance the educational process.</p>
       </div>
  <div>
 <img  src={require("../assets/about5.png")}alt=""/>
@@ -119,7 +119,7 @@ const About = () => {
       <Container className='founder_content_div'>
       <div className='founder_text_wrapper'>
 <p className='page_heading'>Explore Our Premier Courses</p>
-<p>JM Edu welcomes you to the world of academic excellence. Our school provides carefully crafted courses that help students excel in competitive exams and build a sturdy foundation for their career. For the individuals who are aspiring to crack IIT-JEE/NEET-Medical/Foundation Courses or those who want to have holistic development through our Smart Champ program have the right skills and resources to facilitate the educational journey.</p>
+<p className='page_text'>JM Edu welcomes you to the world of academic excellence. Our school provides carefully crafted courses that help students excel in competitive exams and build a sturdy foundation for their career. For the individuals who are aspiring to crack IIT-JEE/NEET-Medical/Foundation Courses or those who want to have holistic development through our Smart Champ program have the right skills and resources to facilitate the educational journey.</p>
   </div>
  <div>
 <img  src={require("../assets/about6.png")}alt=""/>

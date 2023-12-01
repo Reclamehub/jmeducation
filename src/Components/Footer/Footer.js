@@ -62,10 +62,10 @@ Empowering Minds, Enriching Futures. Connect with JM Edu for a world of knowledg
     <wrapper className="footer_wrapper2">
         <ul >
           <p className='page_text'>Quick Links </p>
-          <a href="#SomeNew" className='footer_links'>  <p> About Us</p></a>
-          <a href="#SomeNew" className='footer_links'> <p> Course page</p></a>
-          <a href="#SomeNew" className='footer_links'> <p> Registration</p></a>
-          <a href="#SomeNew" className='footer_links'> <p> Blog</p></a>
+          <Link to="./ home" className='footer_links'>  <p> Home</p></Link>
+          <Link to="./about" className='footer_links'> <p> About</p></Link>
+          <Link to="./course" className='footer_links'> <p> Course</p></Link>
+          <Link to="./contact" className='footer_links'> <p> Contact</p></Link>
         </ul>
    </wrapper>
 

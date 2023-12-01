@@ -22,6 +22,7 @@ export function Navbar() {
       <div>
         <a href="#">
           <img
+          src={require("../assets/jmlogo.png")}
             className="nav__brand"
            alt=""
           />
@@ -61,7 +62,7 @@ export function Navbar() {
       </div>
 
 <div className="" style={{marginLeft:"auto",marginRight:"25px"}}>
- <Link className="nav_link" to="/login"><BiLogIn size="25px"/></Link> 
+ <Link className="nav_link" to="/login"></Link> 
 </div>
    
    <div>
