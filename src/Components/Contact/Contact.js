@@ -2,6 +2,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
+import { Container } from 'react-bootstrap';
 import "./Contact.css"
 
 const FormComponent = () => {
@@ -27,7 +28,16 @@ const FormComponent = () => {
   };
 
   return (
+    <Container className="contact_form_container">
+<wrapper className="form_heading_wrapper">
+  <p className='page_heading' style={{color:"#fff"}}>Get In Touch</p>
+  <p className='page_text'>Send A Message</p>
+  <p className='page_text'>We are here to assist you in any way we can. Whether you have questions about our programs or want to inquire about admissions, feel free to reach out to us.</p>
+</wrapper>
+   
     <form onSubmit={handleSubmit(onSubmit)} className='form'>
+    <wrapper className="flex_wrapper">
+      <div>
       <div className='contact_form_group'>
         <label htmlFor="name">Name</label>
         <input
@@ -69,7 +79,9 @@ const FormComponent = () => {
         />
         {errors.mobile && <span>{errors.mobile.message}</span>}
       </div>
+      </div>
 
+      <div>
       <div className='contact_form_group'>
         <label htmlFor="message">Message</label>
         <textarea
@@ -78,9 +90,11 @@ const FormComponent = () => {
         />
         {errors.message && <span>{errors.message.message}</span>}
       </div>
-
+      </div>
+      </wrapper>
       <button type="submit">Submit</button>
     </form>
+    </Container>
   );
 };
 

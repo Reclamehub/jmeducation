@@ -10,7 +10,7 @@
 .center_heading_div{
   min-width: 80%;  
 }
-.footer_wrapper2{
+.connectform_wrapper2{
     width: 18%;
     display: flex;
     justify-content: center;
@@ -18,15 +18,15 @@
 font-size: 14px;
 margin: auto;
 }
-.footer_links{
+.connectform_links{
     text-transform: capitalize;
  text-decoration: none;
  color: #fff;
 }
-.footer_links:hover{
+.connectform_links:hover{
 color: #EBC770;
 }
-.footer_errorbox{
+.connectform_errorbox{
     margin-right: 2px;
     border: none;
    
@@ -34,6 +34,7 @@ color: #EBC770;
 .custom-button{
     margin-left: -100px;
     margin-right: 10px;
+    margin-top: -10px;
     border: none;
     outline: none;
     border-radius: 30px;
@@ -43,7 +44,7 @@ color: #EBC770;
     padding: 5px 10px;
     background-color: #3C427B;
 }
-.footer_field_group {
+.connectform_field_group {
     display: flex;
     justify-content: center;
 align-items: center;
@@ -56,7 +57,7 @@ align-items: center;
     outline: none;
     color: #000 !important;
     }
-  .footer_form_fields {
+  .connectform_form_fields {
     padding-top: 15px;
     padding-left: 10px;
     height: 38px;
@@ -69,8 +70,8 @@ align-items: center;
   margin-right: auto;
   }
 
-  .footer_form_fields:focus~label,
-.footer_form_fields:valid~label {
+  .connectform_form_fields:focus~label,
+.connectform_form_fields:valid~label {
   padding-top: 2.5px;
   top: -2px;
   left: 20px;
@@ -78,14 +79,14 @@ align-items: center;
   border: none;
   outline: none;
 }
-.footer_form_fields:hover{
+.connectform_form_fields:hover{
   color: #000 !important;
   border: none;
   outline: none;
   background-color: none;
  }
 
-.footer_form_labels {
+.connectform_form_labels {
    position: absolute;
     top: 12px;
     left: 15px;
@@ -100,7 +101,7 @@ align-items: center;
     display: flex;
     justify-content: flex-start;
   }
-  .footer_brand{
+  .connectform_brand{
     margin-top: -15px;
     height: 100%;
     width: 125px;
@@ -113,7 +114,7 @@ align-items: center;
     .center_heading_div{
       min-width: 100%;  
     }
-    .footer_field_group {
+    .connectform_field_group {
 
    margin: 5px auto 10px auto;
 

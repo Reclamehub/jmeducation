@@ -49,19 +49,19 @@ const GetIn = () => {
     <p className='page_text'>Are you ready to embark on a new educational path? Concerned about our programs? Reach out to our staff for individualized help and direction. Engage in dialogue to get started on the path to greatness.</p>
   </div>
 
-  <wrapper className="footer_wrapper2">
+  <wrapper className="connectform_wrapper2">
 
- <div className="footer_errorbox">
-  <div className="footer_field_group">
+ <div className="connectform_errorbox">
+  <div className="connectform_field_group">
   <input
         required
         type="email"
         name="email"
-        className="footer_form_fields"
+        className="connectform_form_fields"
         value={formData.email}
         onChange={handleChange}
       />
-      <label className="footer_form_labels" htmlFor="fnameInput">
+      <label className="connectform_form_labels" htmlFor="fnameInput">
         Email
       </label>
     <button onClick={handleButtonClick} className="custom-button">Subscribe</button>

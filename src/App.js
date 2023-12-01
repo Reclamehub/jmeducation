@@ -12,6 +12,7 @@ import JEE  from "./Components/CourseType/JEE"
 import Neet  from "./Components/CourseType/Neet"
 import Smart  from "./Components/CourseType/Smart"
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -27,8 +28,9 @@ function App() {
   <Route path="/Smart" element={<Smart />} />
   <Route path="/Contact" element={<Contact />} />
 </Routes>
-  
+<Footer/>
       </Router>
+  
       </div>
   );
 }
