@@ -14,7 +14,7 @@ const UpComing = () => {
     <wrapper className="upcoming_card_courses_wrapper">
     
     <Card className='upcourse_cards'>
-    <Card.Img className="up_card_img" variant="top" src={require("../assets/I2.png")}  />
+    <Card.Img className="up_card_img" variant="top" src={require("../assets/up1.png")}  />
     <Card.Body className='up_card_body mt-1'>
       <Card.Title className='up_card_heading'>Olympiad</Card.Title>
       <text className='up_card_heading'>Learn more  </text>
@@ -22,7 +22,7 @@ const UpComing = () => {
   </Card>
 
   <Card className='upcourse_cards'>
-    <Card.Img className="up_card_img" variant="top" src={require("../assets/I2.png")}  />
+    <Card.Img className="up_card_img" variant="top" src={require("../assets/up2.png")}  />
     <Card.Body className='up_card_body mt-1'>
       <Card.Title className='up_card_heading'>NDA</Card.Title>
       <text className='up_card_heading'>Learn more  </text>
@@ -30,7 +30,7 @@ const UpComing = () => {
   </Card>
 
   <Card className='upcourse_cards'>
-    <Card.Img className="up_card_img" variant="top" src={require("../assets/I2.png")}  />
+    <Card.Img className="up_card_img" variant="top" src={require("../assets/up3.png")}  />
     <Card.Body className='up_card_body mt-1'>
       <Card.Title className='up_card_heading'>MPSC / UPSC</Card.Title>
       <text className='up_card_heading'>Learn more  </text>

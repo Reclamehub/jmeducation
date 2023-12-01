@@ -11,7 +11,11 @@
 .top_heading_wrapper{
   width: 100%;
     text-align: left;
-    margin: 12% 0px 0px 5%;
+    margin: 12% 0px 0px 3%;
+}
+.banner_subheading{
+  margin-top: 2.5rem;
+
 }
 .top_img_wrapper{
   display: flex;
@@ -24,9 +28,10 @@
 }
 .home_cards_container{
     display: flex;
-    justify-content: space-around;
+  justify-content: center;
     align-items: center;
    margin-top: -10%;
+   gap: 5%;
   }
   /*  */
   .home_points_wrapper{

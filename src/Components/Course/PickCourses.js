@@ -59,7 +59,7 @@ const PickCourses = () => {
           {courses.map((course) => (
 <Card key={course.id}className='pickcourse_cards'>
     <Card.Img className="pickcourse_card_img" variant="top" src={course.image}  />
-    <Card.Body className='pickcourse_card_body mt-1'>
+    <Card.Body className='pickcourse_card_body mt-3'>
       <Card.Title className='pickcourse_card_heading'>{course.title}</Card.Title>
       <text className='pickcourse_card_heading'>Learn more  </text>
       </Card.Body>

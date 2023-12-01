@@ -7,10 +7,24 @@ import Connect from '../Connect/Connect'
 const CourseTypes = () => {
   return (
     <>
+
+<Container fluid className='about_container_fluid'>
+<Container className='about_content_container'>
+    <wrapper className="abouttop_heading_wrapper">
+<p className='page_heading' style={{color:"#fff"}}>Fueling Brilliance at JM Edu <br/>Educational Excellence Every Day </p>
+<p className='page_text banner_subheading'>Unlock Your Potential with JM Transformative Education for a Brighter Future. Explore Courses, Ignite Learning, Achieve Success.
+</p>
+    </wrapper>
+    <wrapper className="top_img_wrapper">
+<img className="top_img"src={require("../assets/Jee.png")} alt=""/>
+    </wrapper>
+</Container>
+    </Container>
+
   <Container fluid>
 <Container className='excelinit_content_container'>
 <p className='page_heading'>EXCEL IN SMART CHAMP WITH JM</p>
-<p className='page_text'> Elevate your skills with Smart Champ at JM Edu. Our focused course ensures mastery, preparing you for success. Unlock your potential for excellence in the Smart Champ program, where we nurture your learning journey.</p>
+<p className='page_text '> Elevate your skills with Smart Champ at JM Edu. Our focused course ensures mastery, preparing you for success. Unlock your potential for excellence in the Smart Champ program, where we nurture your learning journey.</p>
 </Container>
 
 <wrapper className="Jee_cards_wrapper">
@@ -58,13 +72,13 @@ const CourseTypes = () => {
 
   <Container fluid className='mt-5'>
 <Container className='about_IITJEE_content_container'>
-  <p>ABOUT SMART CHAMP COURSE</p>
+  <p className='page_heading'>ABOUT SMART CHAMP COURSE</p>
   <wrapper className="yourpath_textwrapper">
    <img className="jee_rect"src={require("../assets/rectangle10.png")}/>
   </wrapper>
 
   <wrapper>
- <p className='page_text'>Welcome to the Smart Champ Course at JM EDU! This transformative program covers attitude and leadership, SMART goals, study techniques, emotional intelligence, health and diet, time management, team building, self-confidence, public speaking, and mind and meta programming. Join us for a journey that equips you with the skills for academic excellence and leadership prowess. Thrive in every facet of life with Smart Champ.</p>
+ <p className='page_text mt-3'>Welcome to the Smart Champ Course at JM EDU! This transformative program covers attitude and leadership, SMART goals, study techniques, emotional intelligence, health and diet, time management, team building, self-confidence, public speaking, and mind and meta programming. Join us for a journey that equips you with the skills for academic excellence and leadership prowess. Thrive in every facet of life with Smart Champ.</p>
   </wrapper>
 </Container>
   </Container>

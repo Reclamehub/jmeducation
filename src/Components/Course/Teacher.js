@@ -11,23 +11,26 @@ const Teacher = () => {
     <wrapper className="teachers_images_wrapper">
         <div className='d-flex flex-column justify-content-center align-items-center'>
 <img src={require("../assets/t1.png")}alt=""/>
-<p>Lorem Ipsum</p>
+<p >Dr. Rajesh Kumar</p>
+<p style={{marginTop:"-15px"}}> EdTech Expert</p>
 </div>
 
 <div className='d-flex flex-column justify-content-center align-items-center'>
 <img src={require("../assets/t2.png")}alt=""/>
-<p>Lorem Ipsum</p>
+<p>Mr. Arjun Mehra </p>
+<p style={{marginTop:"-15px"}}>Digital Education Mentor</p>
 </div>
 
 <div className='d-flex flex-column justify-content-center align-items-center'>
 <img src={require("../assets/t3.png")}alt=""/>
-<p>Lorem Ipsum</p>
+<p>Dr. Vivek Gupta</p>
+<p style={{marginTop:"-15px"}}>Online Assessment Guru</p>
 </div>
 
 <div className='d-flex flex-column justify-content-center align-items-center'>
 <img src={require("../assets/t4.png")}alt=""/>
-<p>Lorem Ipsum
-</p>
+<p>Ms. Priya Verma</p>
+<p style={{marginTop:"-15px"}} > Virtual Classroom Pioneer</p>
 </div>
 
 

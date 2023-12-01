@@ -55,7 +55,7 @@ Empowering Minds, Enriching Futures. Connect with JM Edu for a world of knowledg
 <div>
 
 </div>
-<p>&copy; 2023 Aurora Light Studio. All Rights Reserved</p>
+<p>&copy; 2023 JM Education. All Rights Reserved</p>
     </wrapper>
 
 
@@ -146,7 +146,7 @@ Subscribe for new product and sale updates.
      </div>
       
 
-<p className='mt-2'  style={{fontSize:"11px"}}> &copy; 2023 Aurora Light Studio. All Rights Reserved</p>
+<p className='mt-2'  style={{fontSize:"11px"}}> &copy; 2023 JM Education . All Rights Reserved</p>
 </Container>
    </Container>
    </>

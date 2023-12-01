@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 3.5rem;
 }
 .upcourse_cards{
     height: 100%;

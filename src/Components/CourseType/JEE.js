@@ -12,7 +12,7 @@ const CourseTypes = () => {
 <Container className='about_content_container'>
     <wrapper className="abouttop_heading_wrapper">
 <p className='page_heading' style={{color:"#fff"}}>Transforming Futures, <br/>Enriching Minds at JM Edu</p>
-<p className='page_text'>Unlock Your Potential with JM Transformative Education for a Brighter Future. Explore Courses, Ignite Learning, Achieve Success.
+<p className='page_text banner_subheading'>Unlock Your Potential with JM Transformative Education for a Brighter Future. Explore Courses, Ignite Learning, Achieve Success.
 </p>
     </wrapper>
     <wrapper className="top_img_wrapper">
@@ -22,6 +22,7 @@ const CourseTypes = () => {
     </Container>
 
 <Container className='excelinit_content_container'>
+
 <p className='page_heading'>EXCEL IN IIT-JEE WITH JM</p>
 <p className='page_text'> Unlock your potential and ace the IIT-JEE with our comprehensive IIT/JEE coaching program. At JM Edu, we're dedicated to providing top-notch education, empowering you to achieve your dreams of pursuing engineering at premier institutions.</p>
 </Container>
@@ -71,13 +72,13 @@ const CourseTypes = () => {
 
   <Container fluid className='mt-5'>
 <Container className='about_IITJEE_content_container'>
-  <p>ABOUT IIT-JEE COURSE</p>
+  <p className='page_heading'>ABOUT IIT-JEE COURSE</p>
   <wrapper className="yourpath_textwrapper">
-   <img className="jee_rect"src={require("../assets/rectangle2.png")}/>
+   <img className="jee_rect mt-3"src={require("../assets/rectangle2.png")}/>
   </wrapper>
 
   <wrapper>
- <p className='page_text'>Welcome to JM Edu, where we pave the way for academic excellence in the field of engineering through the Joint Entrance Examination IIT-JEE. At JM Edu, we understand the significance of IIT-JEE in shaping the future of aspiring engineers. Our comprehensive coaching program is Carefully designed to empower students with the knowledge and skills needed to excel in this highly competitive examination.</p>
+ <p className='page_text mt-3'>Welcome to JM Edu, where we pave the way for academic excellence in the field of engineering through the Joint Entrance Examination IIT-JEE. At JM Edu, we understand the significance of IIT-JEE in shaping the future of aspiring engineers. Our comprehensive coaching program is Carefully designed to empower students with the knowledge and skills needed to excel in this highly competitive examination.</p>
   </wrapper>
 </Container>
   </Container>

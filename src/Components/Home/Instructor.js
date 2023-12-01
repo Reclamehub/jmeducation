@@ -13,7 +13,7 @@ const Instructor = () => {
 </div>
 
 <div className='instructor_img_wrapper'>
-    <img className='instructor_img' src={require("../assets/inspiringimg.png")} alt=""/>
+    <img className='instructor_img' src={require("../assets/inspiringimg1.png")} alt=""/>
 </div>
     </Container>
    </Container>

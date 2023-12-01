@@ -7,12 +7,25 @@ import Connect from '../Connect/Connect'
 const CourseTypes = () => {
   return (
     <>
+
+<Container fluid className='about_container_fluid'>
+<Container className='about_content_container'>
+    <wrapper className="abouttop_heading_wrapper">
+<p className='page_heading' style={{color:"#fff"}}>Empower Your Future with <br/>Expert-led Learning </p>
+<p className='page_text banner_subheading'>NEET-MEDICAL Success Starts Here JM Edu Your Path to Medical Excellence JM Edu NEET-MEDICAL Triumph Awaits.
+</p>
+    </wrapper>
+    <wrapper className="top_img_wrapper">
+<img className="top_img"src={require("../assets/Jee.png")} alt=""/>
+    </wrapper>
+</Container>
+    </Container>
+
   <Container fluid className='about_container_fluid'>
 <Container className='about_content_container'>
     <wrapper className="abouttop_heading_wrapper">
-<p className='page_heading' style={{color:"#fff"}}>Transforming Futures, <br/>Enriching Minds at JM Edu</p>
-<p className='page_text'>Unlock Your Potential with JM Transformative Education for a Brighter Future. Explore Courses, Ignite Learning, Achieve Success.
-</p>
+<p className='page_heading' style={{color:"#fff"}}>Empower Your Future with <br/>Expert-led Learning </p>
+<p className='page_text '>NEET-MEDICAL Success Starts Here JM Edu Your Path to Medical Excellence JM Edu NEET-MEDICAL Triumph Awaits.</p>
     </wrapper>
     <wrapper className="top_img_wrapper">
 <img className="top_img"src={require("../assets/Jee.png")} alt=""/>
@@ -77,7 +90,7 @@ const CourseTypes = () => {
   </wrapper>
 
   <wrapper>
- <p className='page_text'>Welcome to JM Edu, and it is our NEET-MEDICAL course that is a landmark for future medical doctors. In total our curriculum encompasses the three NEET-MEDCAL subjects; physics, chemistry and physiology. We emphasize on interaction learning with regular doubt clearing sessions conducted to build confidence with our experienced faculty. Carry out mock tests and examinations to simulate the examinations environment.</p>
+ <p className='page_text mt-3'>Welcome to JM Edu, and it is our NEET-MEDICAL course that is a landmark for future medical doctors. In total our curriculum encompasses the three NEET-MEDCAL subjects; physics, chemistry and physiology. We emphasize on interaction learning with regular doubt clearing sessions conducted to build confidence with our experienced faculty. Carry out mock tests and examinations to simulate the examinations environment.</p>
   </wrapper>
 </Container>
   </Container>

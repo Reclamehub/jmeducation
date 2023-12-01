@@ -11,7 +11,7 @@ const About = () => {
 <Container className='about_content_container'>
     <wrapper className="abouttop_heading_wrapper">
 <p className='page_heading' style={{color:"#fff"}}>Empowering Futures, Transforming <br/> Lives</p>
-<p className='page_text'>At JM Edu, we fuel aspirations with innovative education, empowering individuals to forge their desired futures through knowledge.
+<p className='page_text banner_subheading'>At JM Edu, we fuel aspirations with innovative education, empowering individuals to forge their desired futures through knowledge.
 </p>
     </wrapper>
     <wrapper className="top_img_wrapper">
@@ -96,7 +96,7 @@ const About = () => {
       </div>
 
       <div>
-<img  src={require("../assets/about4.png")}alt=""/>
+<img  className='mission_img' src={require("../assets/about4.png")}alt=""/>
       </div>
       </Container>
 </Container>
@@ -110,7 +110,7 @@ const About = () => {
 <p className='page_text'>Mr. Manohar Vartak co-founded the business and played a key role in developing innovative solutions to enhance the educational process.</p>
       </div>
  <div>
-<img  src={require("../assets/about5.png")}alt=""/>
+<img className='mission_img'  src={require("../assets/about5.png")}alt=""/>
       </div>
       </Container>
 </Container>
@@ -122,7 +122,7 @@ const About = () => {
 <p className='page_text'>JM Edu welcomes you to the world of academic excellence. Our school provides carefully crafted courses that help students excel in competitive exams and build a sturdy foundation for their career. For the individuals who are aspiring to crack IIT-JEE/NEET-Medical/Foundation Courses or those who want to have holistic development through our Smart Champ program have the right skills and resources to facilitate the educational journey.</p>
   </div>
  <div>
-<img  src={require("../assets/about6.png")}alt=""/>
+<img  className='mission_img' src={require("../assets/about6.png")}alt=""/>
       </div>
       </Container>
 </Container>

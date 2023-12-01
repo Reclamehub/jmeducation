@@ -9,7 +9,7 @@ const courses = [
   { id: 1, title: 'IIT-JEE', image: require('../assets/cc1.png') },
   { id: 2, title: 'NEET-MEDICAL', image: require('../assets/cc2.png') },
   { id: 3, title: 'SMART CHAMP', image: require('../assets/cc3.png') },
-  { id: 4, title: 'FOUNDATION COURSE', image: require('../assets/cc3.png') },
+  { id: 4, title: 'FOUNDATION COURSE', image: require('../assets/cc4.png') },
 ];
 
 const OurCourses = () => {
