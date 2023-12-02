@@ -51,6 +51,7 @@ export function Navbar() {
          Courses
           </Link>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><Link class="dropdown-item " to="./course">Course</Link></li>
             <li><Link class="dropdown-item " to="./Jee">JEE</Link></li>
             <li><Link class="dropdown-item" to="Neet">NEET</Link></li>
             <li><Link class="dropdown-item" to="Smart">Smart Champ</Link></li>

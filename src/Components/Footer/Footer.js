@@ -62,8 +62,8 @@ import "./Footer.css"
    <wrapper className="footer_wrapper2">
         <ul>
         <p className='page_text'>Top courses </p>
-        <a  href ="https://instagram.com/aurora.light.studio?igshid=MzRlODBiNWFlZA==" className='footer_links'> <p>IIT -JEE</p></a>
-        <a href="https://www.facebook.com/profile.php?id=100090555109807&mibextid=ZbWKwL" className='footer_links'> <p>NEET - MEDICAL</p></a>
+        <a  href ="https://instagram.com/aurora.light.studio?igshid=MzRlODBiNWFlZA==" className='footer_links'> <p>IIT-JEE</p></a>
+        <a href="https://www.facebook.com/profile.php?id=100090555109807&mibextid=ZbWKwL" className='footer_links'> <p>NEET-MEDICAL</p></a>
         <a  href="https://www.amazon.in/s?i=merchant-items&me=A3RH6WK6BZKY5N&srs=27943762031&fs=true&ref=lp_27943762031_sar" className='footer_links'> <p>Foundation courses</p></a>
         <a  href="https://www.amazon.in/s?i=merchant-items&me=A3RH6WK6BZKY5N&srs=27943762031&fs=true&ref=lp_27943762031_sar" className='footer_links'> <p>Smart champ</p></a>
         </ul>
@@ -72,8 +72,8 @@ import "./Footer.css"
  <wrapper className="footer_wrapper2">
         <ul>
         <p className='page_text'>Exam Preparation </p>
-        <a  href ="https://instagram.com/aurora.light.studio?igshid=MzRlODBiNWFlZA==" className='footer_links'> <p>IIT -JEE</p></a>
-        <a href="https://www.facebook.com/profile.php?id=100090555109807&mibextid=ZbWKwL" className='footer_links'> <p>NEET - MEDICAL</p></a>
+        <a  href ="https://instagram.com/aurora.light.studio?igshid=MzRlODBiNWFlZA==" className='footer_links'> <p>IIT-JEE</p></a>
+        <a href="https://www.facebook.com/profile.php?id=100090555109807&mibextid=ZbWKwL" className='footer_links'> <p>NEET-MEDICAL</p></a>
         <a  href="https://www.amazon.in/s?i=merchant-items&me=A3RH6WK6BZKY5N&srs=27943762031&fs=true&ref=lp_27943762031_sar" className='footer_links'> <p>Foundation courses</p></a>
         <a  href="https://www.amazon.in/s?i=merchant-items&me=A3RH6WK6BZKY5N&srs=27943762031&fs=true&ref=lp_27943762031_sar" className='footer_links'> <p>Smart champ</p></a>
         </ul>

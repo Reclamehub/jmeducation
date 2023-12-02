@@ -16,7 +16,7 @@ const About = () => {
 </p>
     </wrapper>
     <wrapper className="top_img_wrapper">
-<img className="top_img"src={require("../assets/about1.png")} alt=""/>
+<img className="top_img"src={require("../assets/aboutbanner.png")} alt=""/>
     </wrapper>
 </Container>
     </Container>
