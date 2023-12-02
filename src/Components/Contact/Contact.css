@@ -1,10 +1,27 @@
 /* Contact.css */
+.contact_top_fluid{
+  background-color: #3C427B;
+  padding: 5% 2%;
+}
+.contact_top_wrapper{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.ctop_text{
+font-size: 18px;
+}
 .contact_form_container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #3C427B;
-  margin-top: 10%;
+  margin-top: 3%;
   padding: 5%;
   color: #fff;
 }
@@ -49,6 +66,7 @@
     height: 50px;
     border: none;
     outline: none;
+    background-color: #cbcbcb;
   }
   #message{
     height: 250px;
@@ -69,7 +87,9 @@
     border-radius: 10px;
     cursor: pointer;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: 60px;
     margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
   }
   

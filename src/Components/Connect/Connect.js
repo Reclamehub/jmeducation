@@ -91,13 +91,13 @@ const Connect = () => {
 <Container fluid className="connect_containerFluid"style={{backgroundColor:"#3C427B"}}>
 <Container className="connect_content_container">
 <wrapper>
-<img src={require("../assets/rectangle5.png")}alt=""/>
+<img className="connect_form_img" src={require("../assets/rectangle5.png")}alt=""/>
 </wrapper>
 <wrapper className="form_wrapper">
 <p className=" form_heading" style={{color:"#fff"}}>CONNECT WITH US FOR IIT-JEE EXAM</p>
 <p className="page_text"> Stay informed and connected with us for updates on government exams at JM Edu Your pathway to success.</p>
 
-<form ref={form} onSubmit={handleSubmit}  className='form'>
+<form ref={form} onSubmit={handleSubmit}  className='form mt-3'>
      
 <div className="input_errorbox">
             <div className="form_group">

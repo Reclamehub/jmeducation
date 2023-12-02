@@ -4,13 +4,14 @@ import "./Innovation.css"
 
 const Innovation = () => {
   return (
-   <Container className='innovation_containerFluid'>
+   <Container fluid className='innovation_containerFluid'>
+    <Container>
     <div className='center_heading_div'>
     <p className='page_heading'>our innovation</p>
     <p className='page_text'>Our smart modules, virtual labs, and simulations to the future of education. Get a cutting-edge tech and pedagogy experience for an engaging learning journey.</p>
   </div>
-    
-    <Container className='innovation_content_container'>
+    </Container>
+ <Container className='innovation_content_container'>
     <Card className='innovation_cards'>
       <Card.Img className="innovation_card_img"variant="top" src={require("../assets/I1.png")} />
       <Card.Body className='innovation_card_body mt-1'>

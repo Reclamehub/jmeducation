@@ -15,6 +15,7 @@
 }
 .banner_subheading{
   margin-top: 2.5rem;
+  font-size: 18px;
 
 }
 .top_img_wrapper{
@@ -40,14 +41,18 @@
     justify-content: flex-end;
     align-items: flex-start;
     margin-left: auto;
-    width: 40%;
+    width: 50%;
+  }
+  .spcl_page_heading{
+    font-size: 30px;
+    font-weight: 700;
   }
   .spcls_subheadings{
-font-size: 20px;
+    font-size: 20px;
 font-weight: 700;
   }
   .spcls_text{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
       }
   .home_special_container{

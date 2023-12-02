@@ -47,7 +47,7 @@ const PickCourses = () => {
     ],
   };
   return (
-   <Container fluid className='pickcourse_containerFluid'>
+   <Container fluid className='pickcourse_containerFluid container_fluid'>
 <Container className='pickcourse_content_container'>
 <wrapper>
     <p className='page_heading'>pick a courses to get started your study</p>

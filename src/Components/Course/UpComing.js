@@ -6,7 +6,7 @@ import GetIn from '../GetIn/GetIn'
 const UpComing = () => {
   return (
     <>
- <Container fluid className='upcoming_containerFluid'>
+ <Container fluid className='upcoming_containerFluid container_fluid'>
 <Container>
     <p className='page_heading'>upcoming courses</p>
     <p className='page_text'> Embark on a transformative learning journey with JM Edu's upcoming courses tailored for Olympiad excellence, NDA achievements, and MPSC/UPSC success. Unleash your potential through comprehensive study materials, expert guidance, and strategic preparation. Elevate your academic prowess and career prospects.</p>

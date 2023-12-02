@@ -8,32 +8,19 @@ const CourseTypes = () => {
   return (
     <>
 
-<Container fluid className='about_container_fluid'>
-<Container className='about_content_container'>
-    <wrapper className="abouttop_heading_wrapper">
-<p className='page_heading' style={{color:"#fff"}}>Empower Your Future with <br/>Expert-led Learning </p>
-<p className='page_text banner_subheading'>NEET-MEDICAL Success Starts Here JM Edu Your Path to Medical Excellence JM Edu NEET-MEDICAL Triumph Awaits.
-</p>
-    </wrapper>
-    <wrapper className="top_img_wrapper">
-<img className="top_img"src={require("../assets/Jee.png")} alt=""/>
-    </wrapper>
-</Container>
-    </Container>
-
   <Container fluid className='about_container_fluid'>
 <Container className='about_content_container'>
     <wrapper className="abouttop_heading_wrapper">
 <p className='page_heading' style={{color:"#fff"}}>Empower Your Future with <br/>Expert-led Learning </p>
-<p className='page_text '>NEET-MEDICAL Success Starts Here JM Edu Your Path to Medical Excellence JM Edu NEET-MEDICAL Triumph Awaits.</p>
+<p className='banner_subheading '>NEET-MEDICAL Success Starts Here JM Edu Your Path to Medical Excellence JM Edu NEET-MEDICAL Triumph Awaits.</p>
     </wrapper>
     <wrapper className="top_img_wrapper">
-<img className="top_img"src={require("../assets/Jee.png")} alt=""/>
+<img className="top_img"src={require("../assets/neet.png")} alt=""/>
     </wrapper>
 </Container>
     </Container>
 
-  <Container fluid>
+  <Container fluid >
 <Container className='excelinit_content_container'>
 <p className='page_heading'>EXCEL IN NEET-MEDICAL WITH JM</p>
 <p className='page_text'> Unlock your potential and excel in the NEET-MEDICAL with our comprehensive coaching program at JM Edu. We are committed to delivering high-quality education, empowering you to fulfill your aspirations of pursuing a career in medicine at esteemed institutions.</p>
@@ -66,7 +53,7 @@ const CourseTypes = () => {
 </wrapper>
   </Container>
 
-  <Container fluid className='mt-5'>
+  <Container fluid className=' container_fluid mt-5'>
 <Container className='yourpath_content_container'>
   <wrapper className="yourpath_textwrapper">
     <p className='page_heading'>Your Path to Academic Excellence Begins Here</p>
@@ -82,11 +69,11 @@ const CourseTypes = () => {
 
 {/* about-jee */}
 
-  <Container fluid className='mt-5'>
+  <Container fluid className='container_fluid mt-5'>
 <Container className='about_IITJEE_content_container'>
     <p className='page_heading'>ABOUT NEET-MEDICAL COURSE</p>
   <wrapper className="yourpath_textwrapper">
-   <img className="jee_rect"src={require("../assets/rectangle7.png")}/>
+   <img className="jee_rect mt-3"src={require("../assets/rectangle7.png")}/>
   </wrapper>
 
   <wrapper>
@@ -96,7 +83,7 @@ const CourseTypes = () => {
   </Container>
 
 {/* iit-jee-success */}
-  <Container fluid className='mt-5'>
+  <Container fluid className=' container_fluid mt-5'>
 <Container className='yourpath_content_container'>
 <wrapper className="d-flex justify-content-center align-items-center">
     <img className='jee_rect' src={require("../assets/jee_rec1.png")} alt=""/>
@@ -111,7 +98,7 @@ const CourseTypes = () => {
   </Container>
 
   {/*  */}
-  <Container fluid className='mt-5'>
+  <Container fluid className=' container_fluid mt-5'>
 <Container className='yourpath_content_container'>
 <wrapper className="d-flex justify-content-center align-items-center">
     <img className='jee_rect' src={require("../assets/rectangle3.png")} alt=""/>
@@ -125,8 +112,6 @@ const CourseTypes = () => {
 </Container>
   </Container>
 
-
-<GetIn/>
 <Connect/>
   </>
   )

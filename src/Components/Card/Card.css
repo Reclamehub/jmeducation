@@ -29,11 +29,11 @@ height: 65px;
 text-transform: capitalize;
 color: #26348A;
 font-weight: 700;
-font-size: 32px;
+font-size: 25px;
 margin-top: 2rem;
 }
 .card-text{
-font-size: 24px;
+font-size: 20px;
 font-weight: 700;
 }
 @media (max-width: 767px) {

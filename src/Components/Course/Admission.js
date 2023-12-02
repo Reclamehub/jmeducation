@@ -13,8 +13,8 @@ const Admission = () => {
       <Card.Body style={{textTransform:"capitalize"}}>
       <Card.Text className='mt-3 card_heading1' >new batch</Card.Text>
         <Card.Title className='card_heading2'>Admission open</Card.Title>
-        <div className='underline'></div>
-        <Card.Text className='card_heading1'>JM edu innovation</Card.Text>
+        <div className='underline mt-3'></div>
+        <Card.Text className='card_heading1 mt-3'>JM edu innovation</Card.Text>
         </Card.Body>
         </div>
     </Card>

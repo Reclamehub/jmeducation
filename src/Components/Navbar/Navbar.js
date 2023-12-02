@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {BiLogIn} from "react-icons/bi"
+import Button from 'react-bootstrap/Button';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Dropdown from 'react-bootstrap/Dropdown';
+
 import "./Navbar.css";
 
 export function Navbar() {
@@ -41,12 +45,12 @@ export function Navbar() {
               About{" "}
             </Link>
           </li>
+         
           <li className="nav-item dropdown nav__item">
           <Link class="nav-link dropdown-toggle nav_link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
          Courses
           </Link>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><Link class="dropdown-item " to="./course">Course</Link></li>
             <li><Link class="dropdown-item " to="./Jee">JEE</Link></li>
             <li><Link class="dropdown-item" to="Neet">NEET</Link></li>
             <li><Link class="dropdown-item" to="Smart">Smart Champ</Link></li>

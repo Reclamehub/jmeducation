@@ -31,7 +31,7 @@ color: #EBC770;
     border: none;
    
     }
-.custom-button{
+.custom_button{
     margin-left: -100px;
     margin-right: 10px;
     margin-top: -10px;
@@ -73,16 +73,16 @@ align-items: center;
   .connectform_form_fields:focus~label,
 .connectform_form_fields:valid~label {
   padding-top: 2.5px;
-  top: -2px;
+  top: 0px;
   left: 20px;
   font-size: 12px;
   border: none;
-  outline: none;
+
 }
 .connectform_form_fields:hover{
   color: #000 !important;
   border: none;
-  outline: none;
+  outline: 1px solid #3C427B;
   background-color: none;
  }
 

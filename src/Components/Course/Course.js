@@ -5,6 +5,7 @@ import Skill from './Skill'
 import PickCourses from './PickCourses'
 import Teacher from './Teacher'
 import UpComing from './UpComing'
+import "./Course.css"
 
 const Course = () => {
   return (
@@ -16,7 +17,7 @@ const Course = () => {
 <p className='page_text banner_subheading'>Explore our diverse range of courses designed to ignite your curiosity and boost your career.</p>
     </wrapper>
     <wrapper className="top_img_wrapper">
-<img className="top_img"src={require("../assets/about1.png")} alt=""/>
+<img className="top_img"src={require("../assets/course1.png")} alt=""/>
     </wrapper>
 </Container>
     </Container>

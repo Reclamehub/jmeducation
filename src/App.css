@@ -1,7 +1,10 @@
 .App {
   font-family: poppins;
 }
-
+.container_fluid{
+  background-color:  #F9F9FA;
+  padding: 5% 0px;
+}
 .page_heading{
   font-size: 32px;
   font-weight: 700;

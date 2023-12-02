@@ -4,7 +4,7 @@ import "./Skill.css"
 
 const Skill = () => {
   return (
-   <Container fluid className='skill_containerFluid'>
+   <Container fluid className='skill_containerFluid container_fluid'>
 <Container className="skill_content_container">
 <wrapper className="maincourse_img_wrapper">
 <img src={require("../assets/skillimg.png")} alt=''/>

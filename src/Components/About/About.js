@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container,Card } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import "./About.css"
 import GetIn from '../GetIn/GetIn'
 
@@ -11,7 +12,7 @@ const About = () => {
 <Container className='about_content_container'>
     <wrapper className="abouttop_heading_wrapper">
 <p className='page_heading' style={{color:"#fff"}}>Empowering Futures, Transforming <br/> Lives</p>
-<p className='page_text banner_subheading'>At JM Edu, we fuel aspirations with innovative education, empowering individuals to forge their desired futures through knowledge.
+<p className=' banner_subheading'>At JM Edu, we fuel aspirations with innovative education, empowering individuals to forge their desired futures through knowledge.
 </p>
     </wrapper>
     <wrapper className="top_img_wrapper">
@@ -51,8 +52,8 @@ const About = () => {
         </Card.Body>
     </Card>
     </Container>
-{/*  */}
-    <Container fluid className='about2_container_fluid'>
+{/* about us */}
+    <Container fluid className='about2_container_fluid container_fluid'>
       <Container className='aboutus_flex_wrapper'>
 <div className='d-flex justify-content-center'>
 <img className='aboutus_img' src={require("../assets/about2.png")}alt=""/>
@@ -66,7 +67,8 @@ const About = () => {
       </Container>
     </Container>
 
-    <Container fluid className='vision_containerFluid'>
+{/* vision */}
+    <Container fluid className='vision_containerFluid container_fluid'>
       <Container className='aboutus_flex_wrapper'>
      <div className='d-flex justify-content-center'>
 <img className='aboutus_img' src={require("../assets/about3.png")}alt=""/>
@@ -79,7 +81,7 @@ const About = () => {
     </Container>
     </Container>
 
-    <Container fluid className='mission_containerFluid'>
+    <Container fluid className='mission_containerFluid container_fluid'>
       <Container style={{width:"95%"}}>
         <p className='page_heading'>our mission</p>
         <p className='page_text'>Transformation for our learners is more than just knowledge at JM Edu. It is tapping all the potential. We promote the strength of all individuals to reach their full potential, excellence, innovativeness, and holism. 
@@ -87,11 +89,11 @@ const About = () => {
       </Container>
 </Container>
 
-<Container fluid className='Founder_containerFluid'>
+<Container fluid className='Founder_containerFluid container_fluid'>
       <Container className='founder_content_div'>
       <div className='founder_text_wrapper'>
 <p className='page_heading'>Founder</p>
-<p>Mrs. Jyoti Thakur Vartak:</p>
+<p style={{fontWeight:"800"}}>Mrs. Jyoti Thakur Vartak</p>
 <p className='page_text'>With over two decades in education, Mrs. Jyoti Thakur Vartak brings a wealth of experience. Starting as a teacher, she gained valuable insights into classroom dynamics. Transitioning to the tech sector, she excelled in user experience design and product management, honing her skills in creating effective, learner-centric solutions.</p>
       </div>
 
@@ -100,12 +102,12 @@ const About = () => {
       </div>
       </Container>
 </Container>
-
-<Container fluid className='Founder_containerFluid'>
+{/* founder */}
+<Container fluid className='Founder_containerFluid container_fluid'>
       <Container className='founder_content_div'>
       <div className='founder_text_wrapper'>
 <p className='page_heading'>Co-Founder & CEO</p>
-<p>Mr. Manohar Vartak</p>
+<p style={{fontWeight:"800"}}>Mr. Manohar Vartak</p>
 <p className='page_text'>With the goal of revolutionizing the accessibility and delivery of education, Mr. Manohar Vartak co-founded our EdTech company and has fifteen years of broad and diverse experience in the domains of technology and education. After holding executive roles in renowned educational technology businesses.</p>
 <p className='page_text'>Mr. Manohar Vartak co-founded the business and played a key role in developing innovative solutions to enhance the educational process.</p>
       </div>
@@ -114,12 +116,13 @@ const About = () => {
       </div>
       </Container>
 </Container>
-
-<Container fluid className='Founder_containerFluid'>
+{/* co-founder */}
+<Container fluid className='Founder_containerFluid container_fluid'>
       <Container className='founder_content_div'>
       <div className='founder_text_wrapper'>
 <p className='page_heading'>Explore Our Premier Courses</p>
-<p className='page_text'>JM Edu welcomes you to the world of academic excellence. Our school provides carefully crafted courses that help students excel in competitive exams and build a sturdy foundation for their career. For the individuals who are aspiring to crack IIT-JEE/NEET-Medical/Foundation Courses or those who want to have holistic development through our Smart Champ program have the right skills and resources to facilitate the educational journey.</p>
+<p className='page_text '>JM Edu welcomes you to the world of academic excellence. Our school provides carefully crafted courses that help students excel in competitive exams and build a sturdy foundation for their career. For the individuals who are aspiring to crack IIT-JEE/NEET-Medical/Foundation Courses or those who want to have holistic development through our Smart Champ program have the right skills and resources to facilitate the educational journey.</p>
+  <Link className='explore_link'  to="/contact"><p style={{color:"#E72078"}}> contact us  </p></Link>
   </div>
  <div>
 <img  className='mission_img' src={require("../assets/about6.png")}alt=""/>

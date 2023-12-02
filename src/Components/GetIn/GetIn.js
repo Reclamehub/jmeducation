@@ -64,7 +64,7 @@ const GetIn = () => {
       <label className="connectform_form_labels" htmlFor="fnameInput">
         Email
       </label>
-    <button onClick={handleButtonClick} className="custom-button">Subscribe</button>
+    <button onClick={handleButtonClick} className="custom_button">Subscribe</button>
     </div>
 
   <div style={{marginLeft:"5px"}}>{errors.email && <p className="error">{errors.email}</p>}</div>

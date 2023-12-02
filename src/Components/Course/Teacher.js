@@ -4,9 +4,9 @@ import "./Teacher.css"
 
 const Teacher = () => {
   return (
-   <Container fluid className='teacher_container_Fluid'>
+   <Container fluid className='teacher_container_Fluid container_fluid'>
 <Container className='teacher_content_container'>
-    <p className='page_heading'>meet the teacher who teaches you online</p>
+    <p className='page_heading teacher_heading'>meet the teacher who teaches you online</p>
     <p className='page_text'>Welcome to JM Edu, where inspiration and education collide in the virtual world of information and learning! It's about the trip, not just the courses, and your committed mentor and guide will be at the center of it all.</p>
     <wrapper className="teachers_images_wrapper">
         <div className='d-flex flex-column justify-content-center align-items-center'>

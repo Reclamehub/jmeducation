@@ -1,3 +1,6 @@
+.register_fluid{
+  padding: 5% 0px;
+}
 .register_content_container{
   display: flex;
   justify-content: space-between;
@@ -6,6 +9,9 @@
 .register_text_wrapper{
     width: 45%;
 }
+.reg_form_wrapper{
+  width: 45%;
+ }
 @media (max-width: 767px) {
   .register_text_wrapper{
     width: 100%;

@@ -5,6 +5,9 @@
     padding: 5% 0px;
     border-top-left-radius: 250px;
 }
+.footer_logo{
+margin: -37px 0px 0px 50px
+}
 .footer_container_fluid_sm{
 display: none;
 }

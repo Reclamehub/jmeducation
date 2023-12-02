@@ -8,6 +8,10 @@ justify-content: space-between;
  align-items: flex-start;
  color: #fff;
 }
+.explore_link{
+  text-decoration: none;
+  font-weight: 500;
+}
 .about_cards_container{
     display: flex;
     justify-content: space-around;

@@ -1,5 +1,7 @@
 .innovation_containerFluid{
     margin-top: 5rem;
+    background-color: #F9F9FA;
+    padding: 5% 0px;
 }
 .innovation_content_container{
     display: flex;

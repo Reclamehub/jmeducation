@@ -57,12 +57,12 @@ const Clients = () => {
     <Container fluid className='testi_client_containerFluid'>
       <div className="exp_heading_wrapper" style={{ margin: "auto", display: "flex", justifyContent: "center", textAlign: "center", width: "95%" }}>
         <div className='exp_heading_div'   >
-          <heading className="page_heading">student testimonial</heading>
-          <p className='page_text'>Hear from our students as they narrate their success and satisfaction transformation experience in JM Education.</p>
+          <heading className="page_heading ">student testimonial</heading>
+          <p className='page_text mt-3'>Hear from our students as they narrate their success and satisfaction transformation experience in JM Education.</p>
         </div>
      </div>
 
-    <div className='slider_main_div'
+    <div className='slider_main_div mt-3'
         style={{
           height: 'auto',
           margin: "auto",

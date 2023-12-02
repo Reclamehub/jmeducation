@@ -47,19 +47,9 @@ import "./Footer.css"
    <Container fluid  className='footer_container_fluid_lg'>
 <Container className='footer_content_container'>
 
-<wrapper className="footer_wrapper1">
-  {/* <img className='footer_brand' src={require("../../assets/Alogo1.png")}alt=""/> */}
-<p className='mt-2'>
-Empowering Minds, Enriching Futures. Connect with JM Edu for a world of knowledge and limitless possibilities. Inspiring curiosity, fostering innovation, and nurturing dreams – we're here for every step of your educational journey. © 2023 JM Edu. All rights reserved. Explore our programs, discover your potential, and embark on a transformative learning experience.
-</p>
-<div>
 
-</div>
-<p>&copy; 2023 JM Education. All Rights Reserved</p>
-    </wrapper>
-
-
-    <wrapper className="footer_wrapper2">
+  <wrapper className="footer_wrapper2">
+    <img className='footer_logo' src={require("../assets/Jmlogo1.png")} alt=""/>
         <ul >
           <p className='page_text'>Quick Links </p>
           <Link to="./ home" className='footer_links'>  <p> Home</p></Link>
@@ -88,6 +78,17 @@ Empowering Minds, Enriching Futures. Connect with JM Edu for a world of knowledg
         <a  href="https://www.amazon.in/s?i=merchant-items&me=A3RH6WK6BZKY5N&srs=27943762031&fs=true&ref=lp_27943762031_sar" className='footer_links'> <p>Smart champ</p></a>
         </ul>
  </wrapper>
+
+ <wrapper className="footer_wrapper1">
+  {/* <img className='footer_brand' src={require("../../assets/Alogo1.png")}alt=""/> */}
+<p className='mt-2'>
+Empowering Minds, Enriching Futures. Connect with JM Edu for a world of knowledge and limitless possibilities. Inspiring curiosity, fostering innovation, and nurturing dreams – we're here for every step of your educational journey. © 2023 JM Edu. All rights reserved. Explore our programs, discover your potential, and embark on a transformative learning experience.
+</p>
+<div>
+
+</div>
+<p>&copy; 2023 JM Education. All Rights Reserved</p>
+    </wrapper>
 </Container>
    </Container>
 {/*-------------------------------------------------------*/}
