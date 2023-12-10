@@ -8,6 +8,14 @@
 .footer_logo{
 margin: -37px 0px 0px 50px
 }
+.footer_social_links_div{
+display: flex;
+justify-content: flex-start;
+gap: 25px;
+align-items: center;
+width: 70%;
+margin-bottom: 1rem;
+}
 .footer_container_fluid_sm{
 display: none;
 }

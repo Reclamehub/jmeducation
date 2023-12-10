@@ -1,19 +1,19 @@
-import React from 'react'
-import { Container, Card } from 'react-bootstrap'
+import React from 'react';
+import { Container, Card } from 'react-bootstrap';
+import {IoIosArrowRoundForward} from "react-icons/io"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import "./PickCourses.css"
-
+import './PickCourses.css';
 
 const courses = [
-  { id: 1, title: 'IIT-JEE', image: require('../assets/cc1.png') },
-  { id: 2, title: 'NEET-MEDICAL', image: require('../assets/cc2.png') },
-  { id: 3, title: 'SMART CHAMP', image: require('../assets/cc3.png') },
-  { id: 4, title: 'FOUNDATION COURSE', image: require('../assets/cc3.png') },
+  { id: 1, title: 'IIT-JEE', image: require('../assets/pc1.png') },
+  { id: 2, title: 'NEET-MEDICAL', image: require('../assets/pc2.png') },
+  { id: 3, title: 'SMART CHAMP', image: require('../assets/pc3.png') },
+  { id: 4, title: 'FOUNDATION COURSE', image: require('../assets/pc4.png') },
 ];
 
-const PickCourses = () => {
+const OurCourses = () => {
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -46,31 +46,34 @@ const PickCourses = () => {
       },
     ],
   };
+
   return (
-   <Container fluid className='pickcourse_containerFluid container_fluid'>
-<Container className='pickcourse_content_container'>
-<wrapper>
-    <p className='page_heading'>pick a courses to get started your study</p>
-</wrapper>
+    <Container fluid className='course_container_fluid'>
+      <div className='center_heading_div'>
+        <p className='page_heading'>our popular courses</p>
+        <p className=' course_subheading_div'>
+        Get ready to shine in IIT-JEE/NEET-Medical/Foundation Courses and SMART CHAMP classes at JM Edu! Get the right education that will lead you to the top! Come on!
+        </p>
+      </div>
 
-
-<div className="pickCourses_cards_wrapper">
-<Slider {...sliderSettings} className='pickcourse_slider'>
+      <Container className='courses_content_container'>
+        <Slider {...sliderSettings} className='course_slider'>
           {courses.map((course) => (
-<Card key={course.id}className='pickcourse_cards'>
-    <Card.Img className="pickcourse_card_img" variant="top" src={course.image}  />
-    <Card.Body className='pickcourse_card_body mt-3'>
-      <Card.Title className='pickcourse_card_heading'>{course.title}</Card.Title>
-      <text className='pickcourse_card_heading'>Learn more  </text>
-      </Card.Body>
-  </Card>
-      ))}
-      </Slider>
-</div>
-</Container>
-</Container>
+            <Card key={course.id} className='course_card'>
+              <Card.Img className='pickcourse_card_img' variant='top' src={course.image} />
+              <Card.Body className='mt-4 pickcourse_card_body'>
+                <Card.Title className='course_card_title'>{course.title}</Card.Title>
+                <div className='d-flex justify-content-start align-items-center'>
+                <p className='pickcourse_card_link'>Learn more</p>
+                <IoIosArrowRoundForward style={{marginTop:"-12.6px",marginLeft:"5px"}}/>
+                </div>
+              </Card.Body>
+            </Card>
+          ))}
+        </Slider>
+      </Container>
+    </Container>
+  );
+};
 
-  )
-}
-
-export default PickCourses
+export default OurCourses;

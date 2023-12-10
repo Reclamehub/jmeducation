@@ -1,5 +1,5 @@
 .getin_containerFluid{
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .getin_content_container{
   width: 80%;
@@ -43,6 +43,7 @@ color: #EBC770;
     color: #fff;
     padding: 5px 10px;
     background-color: #3C427B;
+    
 }
 .connectform_field_group {
     display: flex;

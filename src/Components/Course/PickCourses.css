@@ -1,14 +1,16 @@
 .pickcourse_containerFluid{
- margin-top: 5rem;
+ margin-top: 2rem;
+ background-color: #3C427B;
 }
-.pickCourses_cards_wrapper{
-  margin: 3rem auto 0px auto;
+.slider{
+  margin: auto;
+  padding: 25px;
+  background-color: aqua;
+ 
 }
-.pickcourse_slider{
-margin: auto;
-}
+
 .pickcourse_cards{
-    max-width: 80%;
+  max-width: 90%;
     background-color: transparent;
     box-shadow: none;
   border-radius: 40px;

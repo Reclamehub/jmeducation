@@ -8,7 +8,7 @@ import Swal from 'sweetalert2';
 import "./Connect.css"
 import GetIn from "../GetIn/GetIn";
 
-const Connect = () => {
+const Connect = (props) => {
 
     const form = useRef();
     const [formData, setFormData] = useState({
@@ -94,7 +94,7 @@ const Connect = () => {
 <img className="connect_form_img" src={require("../assets/rectangle5.png")}alt=""/>
 </wrapper>
 <wrapper className="form_wrapper">
-<p className=" form_heading" style={{color:"#fff"}}>CONNECT WITH US FOR IIT-JEE EXAM</p>
+<p className=" form_heading" style={{color:"#fff"}}>{props.connectTitle}</p>
 <p className="page_text"> Stay informed and connected with us for updates on government exams at JM Edu Your pathway to success.</p>
 
 <form ref={form} onSubmit={handleSubmit}  className='form mt-3'>

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import SmartBg from "../assets/Smart11.png"
+import { Link } from 'react-router-dom'
 import "./CourseTypes.css"
 import GetIn from '../GetIn/GetIn'
 import Connect from '../Connect/Connect'
@@ -8,20 +10,26 @@ const CourseTypes = () => {
   return (
     <>
 
-<Container fluid className='about_container_fluid'>
-<Container className='about_content_container'>
-    <wrapper className="abouttop_heading_wrapper">
-<p className='page_heading' style={{color:"#fff"}}>Fueling Brilliance at JM Edu <br/>Educational Excellence Every Day </p>
-<p className='banner_subheading'>Unlock Your Potential with JM Transformative Education for a Brighter Future. Explore Courses, Ignite Learning, Achieve Success.
-</p>
-    </wrapper>
-    <wrapper className="top_img_wrapper">
-<img className="top_img"src={require("../assets/smart.png")} alt=""/>
-    </wrapper>
-</Container>
-    </Container>
+<Container fluid className="home_bg_div " style={{
+  
+  backgroundImage: `url(${SmartBg})`,
+  backgroundRepeat: "no-repeat",
+ backgroundSize:"100% 100%",
+ backgroundPosition:"cover",
+ //  backgroundColor:"#3C427B"
 
-  <Container fluid>
+   }}>
+<Container  >
+<div className='banner_text_wrapper'>
+<p className='page_heading' style={{color:"#ffffff"}}> Fueling Brilliance at JM Edu Educational Excellence Every Day</p>
+<p className='banner_text'>Empowering Young Minds, Fostering Brilliance, Shaping Futures, and Achieving Excellence Together.</p>
+
+<div><Link to="/contact"><button className='let_button '>LET'S TALK</button></Link></div>
+</div>
+</Container>
+</Container>
+
+  <Container fluid className='container_fluid'>
 <Container className='excelinit_content_container'>
 <p className='page_heading'>EXCEL IN SMART CHAMP WITH JM</p>
 <p className='page_text '> Elevate your skills with Smart Champ at JM Edu. Our focused course ensures mastery, preparing you for success. Unlock your potential for excellence in the Smart Champ program, where we nurture your learning journey.</p>
@@ -115,7 +123,7 @@ const CourseTypes = () => {
 
 
 
-<Connect/>
+  <Connect  connectTitle="CONNECT WITH US FOR SMART CHAMP EXAM"/>
   </>
   )
 }

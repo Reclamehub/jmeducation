@@ -1,6 +1,7 @@
 import React from 'react'
 import {  Container } from 'react-bootstrap'
 import  Card  from '../Card/Card'
+import { Link } from 'react-router-dom'
 import "./Home.css"
 import OurCourses from './OurCourses'
 import Instructor from './Instructor'
@@ -21,6 +22,8 @@ const Home = () => {
     <wrapper className="top_heading_wrapper">
 <p className='page_heading' style={{color:"#fff"}}>Empowering Minds Through   Quality Education</p>
 <p className=' banner_subheading'> Welcome to JM Edu – Excellent education that nourishes minds, unleashes potential, and creates future possibilities.</p>
+
+<div><Link to="/contact"><button className='let_button'>LET'S TALK</button></Link></div>
     </wrapper>
     <wrapper className="top_img_wrapper">
 <img className="top_img"src={require("../assets/home.png")} alt=""/>

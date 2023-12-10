@@ -1,6 +1,7 @@
 .Jee_cards_wrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3%;
     align-items: center;
     margin-top: 2rem;
 }

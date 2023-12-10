@@ -2,26 +2,36 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import "./CourseTypes.css"
 import GetIn from '../GetIn/GetIn'
+import { Link } from 'react-router-dom'
 import Connect from '../Connect/Connect'
+import jeeBg from "../assets/Jee11.png"
 
 const CourseTypes = () => {
   return (
     <>
  
-  <Container fluid className='about_container_fluid '>
-<Container className='about_content_container'>
-    <wrapper className="abouttop_heading_wrapper">
-<p className='page_heading' style={{color:"#fff"}}>Transforming Futures, <br/>Enriching Minds at JM Edu</p>
-<p className='banner_subheading'>Unlock Your Potential with JM Transformative Education for a Brighter Future. Explore Courses, Ignite Learning, Achieve Success.
-</p>
-    </wrapper>
-    <wrapper className="top_img_wrapper">
-<img className="top_img"src={require("../assets/Jee.png")} alt=""/>
-    </wrapper>
-</Container>
-    </Container>
+ <Container fluid className="home_bg_div " style={{
+  
+  backgroundImage: `url(${jeeBg})`,
+  backgroundRepeat: "no-repeat",
+ backgroundSize:"100% 100%",
+ backgroundPosition:"cover",
+ //  backgroundColor:"#3C427B"
 
-<Container className='excelinit_content_container'>
+   }}>
+<Container  >
+<div className='banner_text_wrapper'>
+<p className='page_heading' style={{color:"#ffffff"}} >Transforming Futures, Enriching Minds at JM Edu</p>
+<p className='banner_text'> Unlock Your Potential with JM Transformative Education for a Brighter Future. Explore Courses, Ignite Learning, Achieve Success.</p>
+
+<div><Link to="/contact"><button className='let_button '>LET'S TALK</button></Link></div>
+</div>
+</Container>
+</Container>
+
+
+<Container fluid className='container_fluid'>
+<Container className='excelinit_content_container '>
 
 <p className='page_heading'>EXCEL IN IIT-JEE WITH JM</p>
 <p className='page_text'> Unlock your potential and ace the IIT-JEE with our comprehensive IIT/JEE coaching program. At JM Edu, we're dedicated to providing top-notch education, empowering you to achieve your dreams of pursuing engineering at premier institutions.</p>
@@ -52,7 +62,7 @@ const CourseTypes = () => {
         <p style={{marginTop:"-12px"}}>Study</p>
     </div>
 </wrapper>
- 
+</Container>
 
   <Container fluid className='container_fluid mt-5'>
 <Container className='yourpath_content_container'>
@@ -113,7 +123,7 @@ const CourseTypes = () => {
 </Container>
   </Container>
 
-<Connect/>
+<Connect connectTitle="CONNECT WITH US FOR IIT-JEE EXAM"/>
   </>
   )
 }

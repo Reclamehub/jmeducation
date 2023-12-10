@@ -1,5 +1,5 @@
 // FormComponent.js
-import React from 'react';
+import React,{useState} from 'react'
 import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import { Container } from 'react-bootstrap';
@@ -7,46 +7,45 @@ import "./Contact.css"
 import GetIn from '../GetIn/GetIn';
 
 const FormComponent = () => {
-  // 
-  // const [formData, setFormData] = useState({ email: '' });
-  // const [errors, setErrors] = useState({ email: '' });
+  const [formData, setFormData] = useState({ email: '' });
+  const [erors, seterors] = useState({ email: '' });
 
-  // const handleChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData({
-  //     ...formData,
-  //     [name]: value,
-  //   });
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
 
-  //   // Validation logic for +the email field (you can modify this to suit your requirements)
-  //   if (name === 'email') {
-  //     if (!value) {
-  //       setErrors({
-  //         ...errors,
-  //         email: 'Email is required',
-  //       });
-  //     } else if (!isValidEmail(value)) {
-  //       setErrors({
-  //         ...errors,
-  //         email: 'Invalid email format',
-  //       });
-  //     } else {
-  //       setErrors({
-  //         ...errors,
-  //         email: '',
-  //       });
-  //     }
-  //   }
-  // };
-  // const handleButtonClick = () => {
+    // Validation logic for +the email field (you can modify this to suit your requirements)
+    if (name === 'email') {
+      if (!value) {
+        seterors({
+          ...erors,
+          email: 'Email is required',
+        });
+      } else if (!isValidEmail(value)) {
+        seterors({
+          ...erors,
+          email: 'Invalid email format',
+        });
+      } else {
+        seterors({
+          ...erors,
+          email: '',
+        });
+      }
+    }
+  };
+  const handleButtonClick = () => {
  
-  // setFormData({ email: '' });
-  // };
-  // const isValidEmail = (email) => {
-  //   const emailPattern = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
-  //   return emailPattern.test(email);
-  // }; 
-  
+  setFormData({ email: '' });
+  };
+  const isValidEmail = (email) => {
+    const emailPattern = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+    return emailPattern.test(email);
+  }; 
+  // 
   const {
     register,
     handleSubmit,
@@ -74,13 +73,11 @@ const FormComponent = () => {
 <wrapper className="contact_top_wrapper">
   <p className='page_heading' style={{color:"#fff"}}>Contact Informations</p>
   <p className='ctop_text'>Looking to join JM Education and embark on an educational journey? Unsure about the programs, admissions, or services offered by us? Don't worry, we are here to assist you. Feel free to contact us today for personalized assistance.</p>
-
-  <img className="mt-2"src={require("../assets/email.png")} alt=""/>
-</wrapper>
-
-{/* <div className="connectform_errorbox">
+{/* <img className="mt-2"src={require("../assets/email.png")} alt=""/> */}
+  {/* <div className="connectform_errorbox">
   <div className="connectform_field_group">
   <input
+  style={{fontSize:"11px"}}
         required
         type="email"
         name="email"
@@ -91,11 +88,12 @@ const FormComponent = () => {
       <label className="connectform_form_labels" htmlFor="fnameInput">
         Email
       </label>
-    <button onClick={handleButtonClick} className="custom_button">Subscribe</button>
+    <button onClick={handleButtonClick} style={{width:"100%"}} className="custom_button">Send Request</button>
     </div>
 
   <div style={{marginLeft:"5px"}}>{errors.email && <p className="error">{errors.email}</p>}</div>
 </div> */}
+</wrapper>
     </Container>
     
     <Container className="contact_form_container">
@@ -116,7 +114,7 @@ const FormComponent = () => {
           id="name"
           {...register('name', { required: 'Name is required' })}
         />
-        {errors.name && <span>{errors.name.message}</span>}
+        {errors.name && <span className='spann'>{errors.name.message}</span>}
       </div>
 
       <div className='contact_form_group'>
@@ -133,7 +131,7 @@ const FormComponent = () => {
             },
           })}
         />
-        {errors.email && <span>{errors.email.message}</span>}
+        {errors.email && <span className='spann'>{errors.email.message}</span>}
       </div>
 
       <div className='contact_form_group'>
@@ -150,7 +148,7 @@ const FormComponent = () => {
             },
           })}
         />
-        {errors.mobile && <span>{errors.mobile.message}</span>}
+        {errors.mobile && <span className='spann'>{errors.mobile.message}</span>}
       </div>
       </div>
 
@@ -162,7 +160,7 @@ const FormComponent = () => {
           id="message"
           {...register('message', { required: 'Message is required' })}
         />
-        {errors.message && <span>{errors.message.message}</span>}
+        {errors.message && <span className='spann'>{errors.message.message}</span>}
       </div>
       </div>
       </wrapper>

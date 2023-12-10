@@ -1,13 +1,21 @@
-.about_container_fluid{
-    height: 90vh;
-    background-color: #39417A;
+.home_bg_div{
+    /* padding: 8% 2%; */
+    padding: 16% 0px ;
+    color: #fff;
+
 }
-.about_content_container{
- display: flex;
-justify-content: space-between;
- align-items: flex-start;
- color: #fff;
+.banner_text_wrapper{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+    width: 50%;
 }
+.banner_text{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
 .explore_link{
   text-decoration: none;
   font-weight: 500;
@@ -16,7 +24,7 @@ justify-content: space-between;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 .abouttop_heading_wrapper{
     min-width: 50%;
@@ -27,9 +35,10 @@ justify-content: space-between;
     background-color: #3C427B;
     box-shadow: none;
     border-radius: 20px;
-    color: #fff;
-    height: 300px;
-    width: 16rem;
+    color: #ffffff;
+    height: 320px;
+    width: 17rem;
+    border-radius: 40px;
 }
 .about_cards_body{
     display: flex;
@@ -49,7 +58,7 @@ justify-content: space-between;
     text-transform: capitalize;
 }
 .about_cards_text{
-    font-size: 14px;
+font-size: 14px;
     font-weight: 500;
 }
 /*  */
@@ -79,19 +88,24 @@ width: 45%;
     margin-right: auto;
 }
 .about2_container_fluid{
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .vision_containerFluid{
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .mission_containerFluid{
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .Founder_containerFluid{
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .mission_img{
     width: 100%;
+}
+.arrow_icon{
+    margin-top: -15px;
+    margin-left: 2px;
+    color: #E72078;
 }
 /*  */
 @media (max-width: 767px) {
@@ -99,7 +113,7 @@ width: 45%;
 flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 5rem;
+        margin-top: 2rem;
     gap:50px;
     }
     .about_card{

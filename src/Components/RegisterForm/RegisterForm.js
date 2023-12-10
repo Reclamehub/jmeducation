@@ -66,7 +66,7 @@ const ContactForm = () => {
 
   return (
     <div className='reg_form_container'>
-      <div className='reg_form_text'>  <p>Unlock premium IIT-JEE/NEET- medical / foundation courses by creating your free account now.</p></div>
+      <div className='reg_form_text'>  <p>Unlock premium IIT-JEE/NEET- Medical / Foundation Courses By Creating your free account now.</p></div>
       {isSubmitted ? (
       <p >Thank you for submitting the form!</p>
       ) : (

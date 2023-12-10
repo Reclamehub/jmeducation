@@ -1,26 +1,34 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import "./CourseTypes.css"
 import GetIn from '../GetIn/GetIn'
+import NeetBg from "../assets/Neet11.png"
 import Connect from '../Connect/Connect'
 
 const CourseTypes = () => {
   return (
     <>
+ <Container fluid className="home_bg_div " style={{
+  
+  backgroundImage: `url(${NeetBg})`,
+  backgroundRepeat: "no-repeat",
+ backgroundSize:"100% 100%",
+ backgroundPosition:"cover",
+ //  backgroundColor:"#3C427B"
 
-  <Container fluid className='about_container_fluid'>
-<Container className='about_content_container'>
-    <wrapper className="abouttop_heading_wrapper">
-<p className='page_heading' style={{color:"#fff"}}>Empower Your Future with <br/>Expert-led Learning </p>
-<p className='banner_subheading '>NEET-MEDICAL Success Starts Here JM Edu Your Path to Medical Excellence JM Edu NEET-MEDICAL Triumph Awaits.</p>
-    </wrapper>
-    <wrapper className="top_img_wrapper">
-<img className="top_img"src={require("../assets/neet.png")} alt=""/>
-    </wrapper>
+   }}>
+<Container  >
+<div className='banner_text_wrapper'>
+<p className='page_heading' style={{color:"#ffffff"}} >Empower Your Future with Expert-led Learning </p>
+<p className='banner_text'>NEET-MEDICAL Success Starts Here JM Edu Your Path to Medical Excellence JM Edu NEET-MEDICAL Triumph Awaits.</p>
+
+<div><Link to="/contact"><button className='let_button '>LET'S TALK</button></Link></div>
+</div>
 </Container>
-    </Container>
+</Container>
 
-  <Container fluid >
+  <Container fluid  className='container_fluid'>
 <Container className='excelinit_content_container'>
 <p className='page_heading'>EXCEL IN NEET-MEDICAL WITH JM</p>
 <p className='page_text'> Unlock your potential and excel in the NEET-MEDICAL with our comprehensive coaching program at JM Edu. We are committed to delivering high-quality education, empowering you to fulfill your aspirations of pursuing a career in medicine at esteemed institutions.</p>
@@ -112,7 +120,7 @@ const CourseTypes = () => {
 </Container>
   </Container>
 
-<Connect/>
+<Connect  connectTitle="CONNECT WITH US FOR NEET-MEDICAL EXAM"/>
   </>
   )
 }

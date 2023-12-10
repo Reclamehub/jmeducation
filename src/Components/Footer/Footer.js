@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import{FaPhoneAlt} from "react-icons/fa"
 import "./Footer.css"
 
  const Footer = () => {
@@ -62,20 +63,18 @@ import "./Footer.css"
    <wrapper className="footer_wrapper2">
         <ul>
         <p className='page_text'>Top courses </p>
-        <a  href ="https://instagram.com/aurora.light.studio?igshid=MzRlODBiNWFlZA==" className='footer_links'> <p>IIT-JEE</p></a>
-        <a href="https://www.facebook.com/profile.php?id=100090555109807&mibextid=ZbWKwL" className='footer_links'> <p>NEET-MEDICAL</p></a>
-        <a  href="https://www.amazon.in/s?i=merchant-items&me=A3RH6WK6BZKY5N&srs=27943762031&fs=true&ref=lp_27943762031_sar" className='footer_links'> <p>Foundation courses</p></a>
-        <a  href="https://www.amazon.in/s?i=merchant-items&me=A3RH6WK6BZKY5N&srs=27943762031&fs=true&ref=lp_27943762031_sar" className='footer_links'> <p>Smart champ</p></a>
+ <Link to="./Jee" className='footer_links'> <p>IIT-JEE</p></Link>
+ <Link to="./Neet" className='footer_links'> <p>NEET-MEDICAL</p></Link>
+ <Link to ="./Smart" className='footer_links'> <p>Smart champ</p></Link>
+     <Link to="./Foundation" className='footer_links'><p>Foundation courses</p></Link>
         </ul>
  </wrapper>
 
  <wrapper className="footer_wrapper2">
         <ul>
-        <p className='page_text'>Exam Preparation </p>
-        <a  href ="https://instagram.com/aurora.light.studio?igshid=MzRlODBiNWFlZA==" className='footer_links'> <p>IIT-JEE</p></a>
-        <a href="https://www.facebook.com/profile.php?id=100090555109807&mibextid=ZbWKwL" className='footer_links'> <p>NEET-MEDICAL</p></a>
-        <a  href="https://www.amazon.in/s?i=merchant-items&me=A3RH6WK6BZKY5N&srs=27943762031&fs=true&ref=lp_27943762031_sar" className='footer_links'> <p>Foundation courses</p></a>
-        <a  href="https://www.amazon.in/s?i=merchant-items&me=A3RH6WK6BZKY5N&srs=27943762031&fs=true&ref=lp_27943762031_sar" className='footer_links'> <p>Smart champ</p></a>
+        <p className='page_text'>Support  </p>
+        <a  href ="https://docs.google.com/document/d/1vb059JpFEtI64SIYPuSONOK-wocLSqkVkfN8jnQncUI/edit" className='footer_links'> <p>Terms & Condition</p></a>
+        <a href="https://docs.google.com/document/d/1wo37yh0E3B7mTSblw9WHUBunIRkV5JPDpABu7TUEADY/edit" className='footer_links'> <p>Privacy Policy</p></a>
         </ul>
  </wrapper>
 
@@ -84,6 +83,18 @@ import "./Footer.css"
 <p className='mt-2'>
 Empowering Minds, Enriching Futures. Connect with JM Edu for a world of knowledge and limitless possibilities. Inspiring curiosity, fostering innovation, and nurturing dreams – we're here for every step of your educational journey. © 2023 JM Edu. All rights reserved. Explore our programs, discover your potential, and embark on a transformative learning experience.
 </p>
+<div className='d-flex justify-content-start align-items-center'>
+<FaPhoneAlt  style={{marginLeft:"2px" ,marginTop:"-15px",marginRight:"7px"}}/>
+<a className='footer_links' href="tel:7039571383"><p>+91-7039571383</p></a>
+</div>
+
+<div className='footer_social_links_div'>
+  <a className='footer_links'href="https://www.facebook.com/jmeduinnovationworld"><img src={require("../assets/fFacebook.png")} alt=""/></a>
+  <a className='footer_links' href="https://www.instagram.com/jm_edu_innovation/"><img src={require("../assets/finsta.png")} alt=""/></a>
+  <a className='footer_links' href="https://www.linkedin.com/company/jm-edu-innovation/"><img src={require("../assets/flinkedin.png")} alt=""/></a>
+  <a className='footer_links' href="https://twitter.com/JMEduInnovation"><img src={require("../assets/ftwitter.png")} alt=""/> </a>
+  <a className='footer_links' href="https://in.pinterest.com/jmeduinnovation007/"><img src={require("../assets/fpinterest.png")} alt=""/></a>
+</div>
 <div>
 
 </div>
