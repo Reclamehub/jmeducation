@@ -2,6 +2,13 @@
  margin-top: 2rem;
  background-color: #3C427B;
 }
+.pickcourse_heading{
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  margin-right: auto;
+  width: 45%;
+}
 .slider{
   margin: auto;
   padding: 15px;
@@ -30,4 +37,9 @@ background-color: #3C427B;
 color: #fff;
 border-radius: 10px;
 
+}
+@media (max-width: 767px) {
+.pickcourse_heading{
+  width: 90%;
+}
 }

@@ -21,8 +21,8 @@ const About = () => {
         }}>
 <Container  >
   <div className='banner_text_wrapper'>
-  <p className='page_heading' style={{color:"#ffffff"}} >Empowering Futures, Transforming Lives</p>
-  <p className='banner_text'>At JM Edu, we fuel aspirations with innovative education, empowering individuals to forge their desired futures through knowledge.</p>
+  <p className='banner_heading' style={{color:"#ffffff"}} >Empowering Futures, Transforming Lives</p>
+  <p className='banner_subheading'>At JM Edu, we fuel aspirations with innovative education, empowering individuals to forge their desired futures through knowledge.</p>
 
   <div><Link to="/contact"><button className='let_button '>LET'S TALK</button></Link></div>
   </div>

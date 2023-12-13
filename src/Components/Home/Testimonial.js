@@ -42,8 +42,8 @@ const Clients = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    centerMode: true, // Enable center mode
-    centerPadding: '0',
+    centerMode: false,
+
     
     responsive: [
       {

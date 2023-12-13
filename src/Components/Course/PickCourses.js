@@ -50,12 +50,10 @@ const OurCourses = () => {
 
   return (
     <Container fluid className='course_container_fluid'>
-      <div className='center_heading_div'>
-        <p className='page_heading'>our popular courses</p>
-        <p className=' course_subheading_div'>
-        Get ready to shine in IIT-JEE/NEET-Medical/Foundation Courses and SMART CHAMP classes at JM Edu! Get the right education that will lead you to the top! Come on!
-        </p>
-      </div>
+      <Container className='center_heading_div'>
+        <p className='page_heading pickcourse_heading'>pick a courses to get started your study</p>
+   
+      </Container>
 
       <Container className='courses_content_container'>
         <Slider {...sliderSettings} className='course_slider'>

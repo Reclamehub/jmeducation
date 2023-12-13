@@ -73,8 +73,8 @@ import "./Footer.css"
  <wrapper className="footer_wrapper2">
         <ul>
         <p className='page_text'>Support  </p>
-        <a  href ="https://docs.google.com/document/d/1vb059JpFEtI64SIYPuSONOK-wocLSqkVkfN8jnQncUI/edit" className='footer_links'> <p>Terms & Condition</p></a>
-        <a href="https://docs.google.com/document/d/1wo37yh0E3B7mTSblw9WHUBunIRkV5JPDpABu7TUEADY/edit" className='footer_links'> <p>Privacy Policy</p></a>
+        <a  href ="https://drive.google.com/file/d/1OBUsXFgv3Dapz5dOPM1xjpU25G0oKdMj/view?usp=drive_link" className='footer_links'> <p>Terms & Condition</p></a>
+        <a href="https://drive.google.com/file/d/1QuXt1LNuYn5QfoMALchtZNUxhNri8WKe/view?usp=drive_link" className='footer_links'> <p>Privacy Policy</p></a>
         </ul>
  </wrapper>
 

@@ -83,29 +83,30 @@ const AdmissionForm = () => {
   return (
     <Container className="form_main_container">
       <form onSubmit={handleSubmit} className="admissionform">
+       
         <div className="form_wrapper1">
           <div className="form_group">
-            <label htmlFor="name">Name</label>
+            <label className='add_labels' htmlFor="name">Enter Your Name</label>
             <input
               className="form_fields"
               type="text"
               name="fname"
               value={formData.name}
               onChange={handleChange}
-              placeholder="Name"
+              placeholder="Enter Your Name"
             />
             {errors.fname && <span>{errors.fname}</span>}
           </div>
 
           <div className="form_group">
-            <label htmlFor="course">Course</label>
+            <label className='add_labels' htmlFor="course">Preferred Courses</label>
             <input
               className="form_fields"
               type="text"
               name="course"
               value={formData.course}
               onChange={handleChange}
-              placeholder="Course"
+              placeholder="Preferred Courses"
             />
             {errors.course && <span>{errors.course}</span>}
           </div>
@@ -113,24 +114,24 @@ const AdmissionForm = () => {
 
         <div className="form_wrapper2">
           <div className="form_group">
-            <label htmlFor="number">Number</label>
+            <label className='add_labels' htmlFor="number">Enter Your Phone Number</label>
             <input
               className="form_fields"
               type="text"
               name="number"
               value={formData.number}
               onChange={handleChange}
-              placeholder="Number"
+              placeholder="Enter Your Phone Number"
             />
             {errors.number && <span>{errors.number}</span>}
           </div>
 
           <div className="form_group">
-            <label htmlFor="batch">Batch</label>
+            <label className='add_labels' htmlFor="batch">Preferred Batch</label>
             <input
               className="form_fields"
               type="text"
-              name="batch"
+              name="Preferred Batch"
               value={formData.batch}
               onChange={handleChange}
               placeholder="Batch"

@@ -43,8 +43,7 @@ color: #EBC770;
     color: #fff;
     padding: 5px 10px;
     background-color: #3C427B;
-    
-}
+  }
 .connectform_field_group {
     display: flex;
     justify-content: center;
@@ -108,16 +107,21 @@ align-items: center;
     width: 125px;
   }
   @media (max-width: 767px) {
+    .connectform_wrapper2{
+    
+    }
     .getin_content_container{
-      width: 100%;
-
+      width: 95%;
+      padding: 2%;
     }
     .center_heading_div{
       min-width: 100%;  
     }
     .connectform_field_group {
-
    margin: 5px auto 10px auto;
-
-      }
-  }
+   max-width: 80%;
+ }
+ .custom_button{
+  font-size: 11px;
+}
+}

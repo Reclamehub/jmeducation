@@ -9,3 +9,24 @@
 .maincourse_text_wrapper{
     width: 42%;
 }
+/*  */
+@media (max-width: 767px) {
+    .skill_content_container{
+      flex-direction: column-reverse;
+      justify-content: center !important ;
+      align-items: center !important;
+      margin: auto;
+    }
+    .maincourse_text_wrapper{
+        width: 95%;
+    }
+    .maincourse_img_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill_img{
+        width: 90%;
+        margin: auto !important;
+    }
+}

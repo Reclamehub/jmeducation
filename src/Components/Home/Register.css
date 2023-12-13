@@ -13,7 +13,13 @@
   width: 45%;
  }
 @media (max-width: 767px) {
+  .register_content_container{
+flex-direction: column; 
+  }
   .register_text_wrapper{
-    width: 100%;
+    width: 95%;
 }
+.reg_form_wrapper{
+  width: 95%;
+ }
 }

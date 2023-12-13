@@ -5,6 +5,27 @@
   background-color:  #F9F9FA;
   padding: 5% 0px;
 }
+.home_bg_div{
+padding-top: 17%;
+padding-bottom: 17%;
+  color: #fff;
+
+}
+.banner_text_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+   width: 50%;
+  margin-top: 0;
+  }
+  .banner_heading{
+ font-size: 32px;
+ font-weight: 800;
+  }
+  .banner_subheading{
+    margin-top: 1rem;
+  }
 .page_heading{
   font-size: 32px;
   font-weight: 700;
@@ -27,14 +48,42 @@
 .let_button{
   font-size: 16px;
   font-weight: 500;
-
+margin-top: 1.5rem;
 }
 @media (max-width: 767px) {
+  .banner_text_wrapper{
+    width: 60%;
+  }
   .page_heading{
   font-size: 16px;
 }
 .page_text{
-  font-size: 14px;
+  font-size: 12px;
+}
+.let_button{
+  margin-top: 0px;
+  padding: 3.5px 15px;
+  font-size: 12px !important;
+}
+.top_heading_wrapper{
+  width: 100%;
+    text-align: left;
+    margin: 12% 0px 0px 3%;
+}
+.banner_subheading{
+  margin-top: 0rem;
+  font-size: 16px;
+
+}
+.top_heading_wrapper{
+  width: 100%;
+}
+.banner_heading{
+  width: 100%;
+  font-size: 12px !important;
+}
+.banner_subheading{
+  font-size: 10px;
 }
 }
 

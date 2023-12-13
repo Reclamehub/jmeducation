@@ -13,23 +13,24 @@ import GetIn from '../GetIn/GetIn'
 const Home = () => {
   return (
     <>
-    <Container fluid className='home_container_fluid' style={{
-         backgroundImage: `url('../homebg.png')`,
-         backgroundSize: '100% 100%',
-         backgroundRepeat: 'no-repeat',
-    }}>
-<Container className='home_content_container'>
-    <wrapper className="top_heading_wrapper">
-<p className='page_heading' style={{color:"#fff"}}>Empowering Minds Through   Quality Education</p>
-<p className=' banner_subheading'> Welcome to JM Edu – Excellent education that nourishes minds, unleashes potential, and creates future possibilities.</p>
+<Container fluid className="home_bg_div " style={{
+  
+  backgroundImage: `url(${"../homebg.png"})`,
+     backgroundRepeat: "no-repeat",
+ backgroundSize:"100% 100%",
+ backgroundPosition:"cover",
+ //  backgroundColor:"#3C427B"
 
-<div><Link to="/contact"><button className='let_button'>LET'S TALK</button></Link></div>
-    </wrapper>
-    <wrapper className="top_img_wrapper">
-<img className="top_img"src={require("../assets/home.png")} alt=""/>
-    </wrapper>
+   }}>
+<Container  >
+<div className='banner_text_wrapper home_banner_wrapper' >
+<p className='banner_heading' style={{color:"#ffffff"}} >Empowering Futures, Transforming Lives</p>
+<p className='banner_subheading'>At JM Edu, we fuel aspirations with innovative education, empowering individuals to forge their desired futures through knowledge.</p>
+
+<div><Link to="/contact"><button className='let_button '>LET'S TALK</button></Link></div>
+</div>
 </Container>
-    </Container>
+</Container>
 
 <Container className='home_cards_container'>
     <Card img= {require("../assets/hc1.png")} heading="210" text="Awards"/>
@@ -43,7 +44,7 @@ const Home = () => {
   </wrapper>
 
   <wrapper className="home_points_wrapper" >
-<p className='spcl_page_heading' style={{color:"#0D134F"}}>Specialized in IIT-JEE/ NEET/FOUNDATION Course</p>
+<p className='spcl_page_heading' style={{color:"#0D134F"}}>Specialized in IIT-JEE/ NEET/Foundation Course</p>
 
 <div className='d-flex justify-content-center align-item-center'>
     <img className='spcl_icons' src={require("../assets/spclicon.png")} alt=""/>

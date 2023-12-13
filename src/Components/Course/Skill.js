@@ -7,7 +7,7 @@ const Skill = () => {
    <Container fluid className='skill_containerFluid container_fluid'>
 <Container className="skill_content_container">
 <wrapper className="maincourse_img_wrapper">
-<img src={require("../assets/skillimg.png")} alt=''/>
+<img  className="skill_img"src={require("../assets/skillimg.png")} alt=''/>
 
 </wrapper>
 <wrapper className="maincourse_text_wrapper">

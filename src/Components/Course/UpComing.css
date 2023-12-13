@@ -24,3 +24,19 @@
     text-align: left;
     width: 80%;
 }
+@media (max-width: 767px) {
+    .upcoming_card_courses_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.2rem;
+        gap: 15px;
+    }
+    .upcourse_cards{
+     width: 90%;
+    }
+    .up_card_heading{
+        font-size: 16px;
+    }   
+}

@@ -10,9 +10,7 @@ margin: 1.5rem auto 0px auto;
     align-items: center; /* Center vertically */
     padding: 1%;
     margin-left: 5%;
-   
 }
-
 .course_card {
     max-width: 80%;
     background-color: transparent;
@@ -41,24 +39,28 @@ margin: 1.5rem auto 0px auto;
 }
 
 @media (max-width: 767px) {
+    .courses_content_container{
+        width: 90%;
+        margin: 1rem auto 0px auto;
+    }
     .course_subheading_div{
         width: 100%;
         margin-top: -5px;
+        font-size: 14px;
         font-weight: 500;
     }
 .course_card{
-        min-width: 100%;
-        margin: auto;
+     min-width: 100%;
+     margin: 0px auto 20px auto;
       
    }
+   .course_card_title{
+    font-weight: 600;
+    font-size: 16px;
+}
   .course_slider{
+    width: 100%;
     margin: auto;
    }
 
-   /* .courses_content_container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
-} */
 }

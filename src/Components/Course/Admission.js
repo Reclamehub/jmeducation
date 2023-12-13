@@ -8,7 +8,7 @@ const Admission = () => {
   <Container className='admission_content_container'>
     <wrapper>
     <Card className='adimission_card'>
-      <div>
+      <div style={{width:"100%"}}>
       <Card.Img className='adimission_card_img' variant="top" src={require("../assets/adcardimg.png")} />
       <Card.Body style={{textTransform:"capitalize"}}>
       <Card.Text className='mt-3 card_heading1' >new batch</Card.Text>
@@ -20,10 +20,8 @@ const Admission = () => {
     </Card>
     </wrapper>
 
-<wrapper>
-<div >
+<wrapper style={{width:"100%"}}>
 <AdmissionForm/>
-</div>
 </wrapper>
   </Container>
   )

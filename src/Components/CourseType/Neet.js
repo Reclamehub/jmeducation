@@ -81,7 +81,7 @@ const CourseTypes = () => {
 <Container className='about_IITJEE_content_container'>
     <p className='page_heading'>ABOUT NEET-MEDICAL COURSE</p>
   <wrapper className="yourpath_textwrapper">
-   <img className="jee_rect mt-3"src={require("../assets/rectangle7.png")}/>
+   <img className="jee_rect_img1 mt-3"src={require("../assets/rectangle7.png")}/>
   </wrapper>
 
   <wrapper>
@@ -92,9 +92,9 @@ const CourseTypes = () => {
 
 {/* iit-jee-success */}
   <Container fluid className=' container_fluid mt-5'>
-<Container className='yourpath_content_container'>
+<Container className='success_content_container'>
 <wrapper className="d-flex justify-content-center align-items-center">
-    <img className='jee_rect' src={require("../assets/jee_rec1.png")} alt=""/>
+    <img className='jee_rect_img' src={require("../assets/jee_rec1.png")} alt=""/>
   </wrapper>
 
   <wrapper className="yourpath_textwrapper">
@@ -107,9 +107,9 @@ const CourseTypes = () => {
 
   {/*  */}
   <Container fluid className=' container_fluid mt-5'>
-<Container className='yourpath_content_container'>
+<Container className='success_content_container'>
 <wrapper className="d-flex justify-content-center align-items-center">
-    <img className='jee_rect' src={require("../assets/rectangle3.png")} alt=""/>
+    <img className='jee_rect_img' src={require("../assets/rectangle3.png")} alt=""/>
   </wrapper>
 
   <wrapper className="yourpath_textwrapper">

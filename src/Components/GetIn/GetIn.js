@@ -67,7 +67,7 @@ const GetIn = () => {
     <button onClick={handleButtonClick} className="custom_button">Subscribe</button>
     </div>
 
-  <div style={{marginLeft:"5px"}}>{errors.email && <p className="error">{errors.email}</p>}</div>
+  <div style={{marginLeft:"5px"}}>{errors.email && <p className="error">{errors.email} </p>}</div>
 </div>
  </wrapper>
     </Container>

@@ -39,27 +39,27 @@ const CourseTypes = () => {
 
 <wrapper className="Jee_cards_wrapper">
     <div className='Jee_cards'>
-        <img src={require("../assets/excelicon.png")} alt=""/>
-        <p className='mt-3'>Proficient</p>
-        <p style={{marginTop:"-12px"}}>Educators</p>
+        <img className='jee_card_img' src={require("../assets/excelicon.png")} alt=""/>
+        <p className=' jee_card_title mt-3'>Proficient</p>
+        <p className="jee_card_title"style={{marginTop:"-12px"}}>Educators</p>
     </div>
 
     <div className='Jee_cards'>
-        <img src={require("../assets/excelicon.png")} alt=""/>
-        <p className='mt-3'>Interactive</p>
-        <p style={{marginTop:"-12px"}}>Learning</p>
+        <img className='jee_card_img' src={require("../assets/excelicon.png")} alt=""/>
+        <p className='jee_card_title mt-3'>Interactive</p>
+        <p className='jee_card_title' style={{marginTop:"-12px"}}>Learning</p>
     </div>
 
     <div className='Jee_cards'>
-        <img src={require("../assets/excelicon.png")} alt=""/>
-        <p className='mt-3'> Personalized </p>
-        <p style={{marginTop:"-12px"}}>Attention</p>
+        <img className='jee_card_img' src={require("../assets/excelicon.png")} alt=""/>
+        <p className='jee_card_title mt-3'> Personalized </p>
+        <p className='jee_card_title' style={{marginTop:"-12px"}}>Attention</p>
     </div>
 
     <div className='Jee_cards'>
-        <img src={require("../assets/excelicon.png")} alt=""/>
-        <p className='mt-3'>Comprehensive </p>
-        <p style={{marginTop:"-12px"}}>Study</p>
+        <img className='jee_card_img' src={require("../assets/excelicon.png")} alt=""/>
+        <p className='jee_card_title mt-3'>Comprehensive </p>
+        <p className="jee_card_title"style={{marginTop:"-12px"}}>Study</p>
     </div>
 </wrapper>
 </Container>
@@ -84,7 +84,7 @@ const CourseTypes = () => {
 <Container className='about_IITJEE_content_container'>
   <p className='page_heading'>ABOUT IIT-JEE COURSE</p>
   <wrapper className="yourpath_textwrapper">
-   <img className="jee_rect mt-3"src={require("../assets/rectangle2.png")}/>
+   <img className="jee_rect_img1 mt-3"src={require("../assets/rectangle2.png")}/>
   </wrapper>
 
   <wrapper>
@@ -95,9 +95,9 @@ const CourseTypes = () => {
 
 {/* iit-jee-success */}
   <Container fluid className='container_fluid mt-5'>
-<Container className='yourpath_content_container'>
+<Container className='success_content_container'>
 <wrapper className="d-flex justify-content-center align-items-center">
-    <img className='jee_rect' src={require("../assets/jee_rec1.png")} alt=""/>
+    <img className='jee_rect_img' src={require("../assets/jee_rec1.png")} alt=""/>
   </wrapper>
 
   <wrapper className="yourpath_textwrapper">
@@ -110,9 +110,9 @@ const CourseTypes = () => {
 
   {/*  */}
   <Container fluid className='container_fluid mt-5'>
-<Container className='yourpath_content_container'>
+<Container className='success_content_container'>
 <wrapper className="d-flex justify-content-center align-items-center">
-    <img className='jee_rect' src={require("../assets/rectangle3.png")} alt=""/>
+    <img className="jee_rect_img" src={require("../assets/rectangle3.png")} alt=""/>
   </wrapper>
 
   <wrapper className="yourpath_textwrapper">

@@ -23,8 +23,8 @@ const Course = () => {
    }}>
 <Container  >
 <div className='banner_text_wrapper'>
-<p className='page_heading' style={{color:"#ffffff"}} >Unlock Your Potential with JM Edu Courses </p>
-<p className='banner_text'> Explore our diverse range of courses designed to ignite your curiosity and boost your career.</p>
+<p className='banner_heading' style={{color:"#ffffff"}} >Unlock Your Potential with JM Edu Courses </p>
+<p className='banner_subheading'> Explore our diverse range of courses designed to ignite your curiosity and boost your career.</p>
 
 <div><Link to="/contact"><button className='let_button '>LET'S TALK</button></Link></div>
 </div>

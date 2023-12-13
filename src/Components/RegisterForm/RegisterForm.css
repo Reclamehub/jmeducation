@@ -1,6 +1,5 @@
 .reg_form_container{
     width: 100%;
-  
 }
 .reg_form{
     display: flex;
@@ -32,10 +31,23 @@ background-color: #f2f2f2;
     color: #000;
 }
 .reg_form_container{
-    /* background-color: black; */
+/* background-color: black; */
 }
 .reg_submitbtn{
     font-weight: 500;
     margin: 1rem  auto 0px auto;
     text-transform: uppercase;
+}
+@media (max-width: 767px) {
+.reg_form_container{
+    width: 100%;
+    margin-top: 1rem;
+}
+.reg_form_text{
+ min-width: 100%;
+ font-size: 14px;
+}
+.reg_input_field{
+ width: 85vw;
+ }   
 }
