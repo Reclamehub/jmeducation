@@ -35,13 +35,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
 }
 .form_wrapper2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
 }
 .form_btn_div{
     display: flex;
@@ -62,7 +62,7 @@ margin-right: -45px;
 @media (max-width: 767px) {
     .form_main_container{
      padding: 20px;
-     width: 88vw;
+     width: 90vw;
     padding: 3rem 3rem;
     }
     .admissionform{

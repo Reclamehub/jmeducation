@@ -1,6 +1,7 @@
 /* Contact.css */
 .contact_top_fluid{
   background-color: #3C427B;
+  color: #ffffff;
   padding: 5% 2%;
 }
 .contact_top_wrapper{
@@ -66,7 +67,7 @@ font-size: 18px;
     height: 50px;
     border: none;
     outline: none;
-    background-color: 	#CBC3E3    ;
+    background-color: #E1DBF0;  ;
   }
   #message{
     height: 250px;
@@ -93,5 +94,5 @@ font-size: 18px;
     font-weight: 700;
   }
   @media (max-width: 767px) {
-    
+
   }

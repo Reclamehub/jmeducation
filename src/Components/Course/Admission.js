@@ -20,7 +20,7 @@ const Admission = () => {
     </Card>
     </wrapper>
 
-<wrapper style={{width:"100%"}}>
+<wrapper style={{maxwidth:"80%"}}>
 <AdmissionForm/>
 </wrapper>
   </Container>

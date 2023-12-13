@@ -61,7 +61,7 @@ const OurCourses = () => {
           {courses.map((course) => (
             <Card key={course.id} className='course_card'>
               <Card.Img className='course_card_img' variant='top' src={course.image} />
-              <Card.Body className='mt-1 course_card_body'>
+              <Card.Body className='mt-3 course_card_body'>
                 <Card.Title className='course_card_title'>{course.title}</Card.Title>
               </Card.Body>
             </Card>

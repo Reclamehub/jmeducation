@@ -46,11 +46,11 @@ import "./Footer.css"
   return (
     <>
    <Container fluid  className='footer_container_fluid_lg'>
+
 <Container className='footer_content_container'>
 
-
-  <wrapper className="footer_wrapper2">
-    <img className='footer_logo' src={require("../assets/Jmlogo1.png")} alt=""/>
+ <wrapper className="footer_wrapper1">
+ <div><Link to="./home"><img className='footer_logo' src={require("../assets/Jmlogo1.png")} alt=""/></Link></div>
         <ul >
           <p className='page_text'>Quick Links </p>
           <Link to="./ home" className='footer_links'>  <p> Home</p></Link>
@@ -60,7 +60,7 @@ import "./Footer.css"
         </ul>
    </wrapper>
 
-   <wrapper className="footer_wrapper2">
+   <wrapper className="footer_wrapper1 mt-4">
         <ul>
         <p className='page_text'>Top courses </p>
  <Link to="./Jee" className='footer_links'> <p>IIT-JEE</p></Link>
@@ -70,15 +70,15 @@ import "./Footer.css"
         </ul>
  </wrapper>
 
- <wrapper className="footer_wrapper2">
+ <wrapper className="footer_wrapper1 mt-4">
         <ul>
         <p className='page_text'>Support  </p>
-        <a  href ="https://drive.google.com/file/d/1OBUsXFgv3Dapz5dOPM1xjpU25G0oKdMj/view?usp=drive_link" className='footer_links'> <p>Terms & Condition</p></a>
-        <a href="https://drive.google.com/file/d/1QuXt1LNuYn5QfoMALchtZNUxhNri8WKe/view?usp=drive_link" className='footer_links'> <p>Privacy Policy</p></a>
+        <a  href ="https://jmeducation.in/terms&conditions" className='footer_links'> <p>Terms & Condition</p></a>
+        <a href="https://jmeducation.in/privacypolicy" className='footer_links'> <p>Privacy Policy</p></a>
         </ul>
  </wrapper>
 
- <wrapper className="footer_wrapper1">
+ <wrapper className="footer_wrapper2 mt-3">
   {/* <img className='footer_brand' src={require("../../assets/Alogo1.png")}alt=""/> */}
 <p className='mt-2'>
 Empowering Minds, Enriching Futures. Connect with JM Edu for a world of knowledge and limitless possibilities. Inspiring curiosity, fostering innovation, and nurturing dreams – we're here for every step of your educational journey. © 2023 JM Edu. All rights reserved. Explore our programs, discover your potential, and embark on a transformative learning experience.

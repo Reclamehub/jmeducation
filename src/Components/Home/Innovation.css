@@ -22,6 +22,7 @@
     height: 100%;
     padding: 0px; 
     text-align: left;
+    background-color: #fff;
 }
 .innovation_card_body{
     display: flex;
