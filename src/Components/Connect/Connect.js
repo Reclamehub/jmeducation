@@ -97,7 +97,7 @@ const Connect = (props) => {
 <p className=" form_heading" style={{color:"#fff"}}>{props.connectTitle}</p>
 <p className="page_text"> Stay informed and connected with us for updates on government exams at JM Edu Your pathway to success.</p>
 
-<form ref={form} onSubmit={handleSubmit}  className='form mt-3'>
+<form ref={form} onSubmit={handleSubmit}  className='form '>
      
 <div className="input_errorbox">
             <div className="form_group">

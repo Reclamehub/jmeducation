@@ -22,7 +22,7 @@ const CourseTypes = () => {
 <Container  >
 <div className='banner_text_wrapper'>
 <p className='page_heading' style={{color:"#ffffff"}}> Fueling Brilliance at JM Edu Educational Excellence Every Day</p>
-<p className='banner_text'>Empowering Young Minds, Fostering Brilliance, Shaping Futures, and Achieving Excellence Together.</p>
+<p className='banner_subheading'>Empowering Young Minds, Fostering Brilliance, Shaping Futures, and Achieving Excellence Together.</p>
 
 <div><Link to="/contact"><button className='let_button '>LET'S TALK</button></Link></div>
 </div>

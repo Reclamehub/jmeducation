@@ -1,4 +1,6 @@
-
+.jee_fluid{
+    margin-top: 2rem;
+}
 .Jee_cards_wrapper{
     display: flex;
     justify-content: center;
@@ -12,7 +14,7 @@
     justify-content: center;
     margin: auto;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 5%;
 }
 .Jee_cards{
     display: flex;
@@ -59,6 +61,9 @@
 }
 /*  */
 @media (max-width: 767px) {
+    .jee_fluid{
+        margin-top: 1rem;
+    }
     .Jee_cards_wrapper {
         display: flex;
         justify-content: center;

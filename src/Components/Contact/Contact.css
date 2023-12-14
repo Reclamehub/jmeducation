@@ -95,6 +95,9 @@ font-size: 18px;
     font-weight: 700;
   }
   @media (max-width: 767px) {
+    .contact_top_wrapper{
+width: 90%;
+    }
     .ctop_text{
       font-size: 14px ;
       }

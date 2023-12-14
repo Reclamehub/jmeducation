@@ -23,6 +23,8 @@
     padding: 0px; 
     text-align: left;
     margin: auto !important;
+    opacity: 1 !important;
+ 
 }
 .pickcourse_card_img{
     width: 80%;
@@ -36,7 +38,7 @@ text-align: left;
 background-color: #3C427B;
 color: #fff;
 border-radius: 10px;
-
+opacity: 1 !important;
 }
 @media (max-width: 767px) {
 .pickcourse_heading{

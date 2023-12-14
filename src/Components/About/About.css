@@ -21,6 +21,7 @@
     height: 320px;
     width: 17rem;
     border-radius: 40px;
+    opacity: 1 !important;
 }
 .about_cards_body{
     display: flex;
@@ -91,6 +92,18 @@ width: 45%;
 }
 /*  */
 @media (max-width: 767px) {
+    .about2_container_fluid{
+        margin-top: 1rem;
+    }
+    .vision_containerFluid{
+        margin-top: 1rem;
+    }
+    .mission_containerFluid{
+        margin-top: 1rem;
+    }
+    .Founder_containerFluid{
+        margin-top: 1rem;
+    }
     .about_cards_container{
 flex-direction: column;
         justify-content: center;

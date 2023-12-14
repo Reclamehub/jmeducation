@@ -36,6 +36,9 @@ color: black;
   }
 
 @media (max-width: 767px) {
+    .testi_client_containerFluid{
+        margin-top: 1rem;
+    }
     .exp_heading_div{
         width: 95%;
     }

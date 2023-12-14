@@ -22,7 +22,7 @@ const CourseTypes = () => {
 <Container  >
 <div className='banner_text_wrapper'>
 <p className='page_heading' style={{color:"#ffffff"}} >Transforming Futures, Enriching Minds at JM Edu</p>
-<p className='banner_text'> Unlock Your Potential with JM Transformative Education for a Brighter Future. Explore Courses, Ignite Learning, Achieve Success.</p>
+<p className='banner_subheading'> Unlock Your Potential with JM Transformative Education for a Brighter Future. Explore Courses, Ignite Learning, Achieve Success.</p>
 
 <div><Link to="/contact"><button className='let_button '>LET'S TALK</button></Link></div>
 </div>
@@ -30,7 +30,7 @@ const CourseTypes = () => {
 </Container>
 
 
-<Container fluid className='container_fluid'>
+<Container fluid className='container_fluid jee_fluid'  style={{backgroundColor:"#F9F9FA"}}>
 <Container className='excelinit_content_container '>
 
 <p className='page_heading'>EXCEL IN IIT-JEE WITH JM</p>
@@ -64,7 +64,7 @@ const CourseTypes = () => {
 </wrapper>
 </Container>
 
-  <Container fluid className='container_fluid mt-5'>
+  <Container fluid className='container_fluid jee_fluid'>
 <Container className='yourpath_content_container'>
   <wrapper className="yourpath_textwrapper">
     <p className='page_heading'>Your Path to Academic Excellence Begins Here</p>
@@ -80,7 +80,7 @@ const CourseTypes = () => {
 
 {/* about-jee */}
 
-  <Container fluid className=' container_fluid  mt-5'>
+  <Container fluid className=' container_fluid  jee_fluid'>
 <Container className='about_IITJEE_content_container'>
   <p className='page_heading'>ABOUT IIT-JEE COURSE</p>
   <wrapper className="yourpath_textwrapper">
@@ -94,7 +94,7 @@ const CourseTypes = () => {
   </Container>
 
 {/* iit-jee-success */}
-  <Container fluid className='container_fluid mt-5'>
+  <Container fluid className='container_fluid jee_fluid'>
 <Container className='success_content_container'>
 <wrapper className="d-flex justify-content-center align-items-center">
     <img className='jee_rect_img' src={require("../assets/jee_rec1.png")} alt=""/>
@@ -109,7 +109,7 @@ const CourseTypes = () => {
   </Container>
 
   {/*  */}
-  <Container fluid className='container_fluid mt-5'>
+  <Container fluid className='container_fluid jee_fluid'>
 <Container className='success_content_container'>
 <wrapper className="d-flex justify-content-center align-items-center">
     <img className="jee_rect_img" src={require("../assets/rectangle3.png")} alt=""/>

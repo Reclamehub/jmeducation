@@ -21,14 +21,14 @@ const CourseTypes = () => {
 <Container  >
 <div className='banner_text_wrapper'>
 <p className='page_heading' style={{color:"#ffffff"}} >Empower Your Future with Expert-led Learning </p>
-<p className='banner_text'>NEET-MEDICAL Success Starts Here JM Edu Your Path to Medical Excellence JM Edu NEET-MEDICAL Triumph Awaits.</p>
+<p className='banner_subheading'>NEET-MEDICAL Success Starts Here JM Edu Your Path to Medical Excellence JM Edu NEET-MEDICAL Triumph Awaits.</p>
 
 <div><Link to="/contact"><button className='let_button '>LET'S TALK</button></Link></div>
 </div>
 </Container>
 </Container>
 
-  <Container fluid  className='container_fluid'>
+  <Container fluid  className='container_fluid jee_fluid'>
 <Container className='excelinit_content_container'>
 <p className='page_heading'>EXCEL IN NEET-MEDICAL WITH JM</p>
 <p className='page_text'> Unlock your potential and excel in the NEET-MEDICAL with our comprehensive coaching program at JM Edu. We are committed to delivering high-quality education, empowering you to fulfill your aspirations of pursuing a career in medicine at esteemed institutions.</p>
@@ -61,7 +61,7 @@ const CourseTypes = () => {
 </wrapper>
   </Container>
 
-  <Container fluid className=' container_fluid mt-5'>
+  <Container fluid className=' container_fluid jee_fluid'>
 <Container className='yourpath_content_container'>
   <wrapper className="yourpath_textwrapper">
     <p className='page_heading'>Your Path to Academic Excellence Begins Here</p>
@@ -77,7 +77,7 @@ const CourseTypes = () => {
 
 {/* about-jee */}
 
-  <Container fluid className='container_fluid mt-5'>
+  <Container fluid className='container_fluid jee_fluid'>
 <Container className='about_IITJEE_content_container'>
     <p className='page_heading'>ABOUT NEET-MEDICAL COURSE</p>
   <wrapper className="yourpath_textwrapper">
@@ -91,7 +91,7 @@ const CourseTypes = () => {
   </Container>
 
 {/* iit-jee-success */}
-  <Container fluid className=' container_fluid mt-5'>
+  <Container fluid className=' container_fluid jee_fluid'>
 <Container className='success_content_container'>
 <wrapper className="d-flex justify-content-center align-items-center">
     <img className='jee_rect_img' src={require("../assets/jee_rec1.png")} alt=""/>

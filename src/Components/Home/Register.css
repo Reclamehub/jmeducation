@@ -12,7 +12,11 @@
 .reg_form_wrapper{
   width: 35%;
  }
+
 @media (max-width: 767px) {
+  .reg_now_heading{
+  margin-top: -7px;
+  }
   .register_content_container{
 flex-direction: column; 
   }

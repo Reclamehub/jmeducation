@@ -53,7 +53,7 @@ export function Navbar() {
             </Link>
           </li>
 
-          <li className="nav-item dropdown nav__item">
+          <li className="nav-item dropdown nav__item dropdownn">
             <Link
               className="nav-link dropdown-toggle nav_link"
               href="#"

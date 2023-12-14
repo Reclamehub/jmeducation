@@ -8,7 +8,8 @@ const Cards = (props) => {
       backgroundImage: `url('../.png')`,
       backgroundSize: '100% 100%',
       backgroundRepeat: 'no-repeat',
-      backgroundPosition:"cover"
+      backgroundPosition:"cover",
+      opacity:".8"
  }}>
     <img src={props.img} className="card-img-top" alt="..."/>
     <div className="card-body">

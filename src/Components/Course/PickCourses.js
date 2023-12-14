@@ -58,9 +58,9 @@ const OurCourses = () => {
       <Container className='courses_content_container'>
         <Slider {...sliderSettings} className='course_slider'>
           {courses.map((course) => (
-            <Card key={course.id} className='course_card'>
+            <Card key={course.id} className='course_card' style={{opacity:"1"}}>
               <Card.Img className='pickcourse_card_img' variant='top' src={course.image} />
-              <Card.Body className='mt-4 pickcourse_card_body'>
+              <Card.Body className='mt-4 pickcourse_card_body' style={{opacity:"1"}}>
                 <Card.Title className='course_card_title'>{course.title}</Card.Title>
                 <div className='d-flex justify-content-start align-items-center'>
                 <p className='pickcourse_card_link'>Learn more</p>

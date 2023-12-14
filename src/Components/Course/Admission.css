@@ -50,6 +50,9 @@ margin: auto;
     gap: 15px;
     width: 95%;
 }
+.adimission_card_img{
+    margin-bottom: 15px;
+}
 .adimission_card{
     width: 88vw;
 }

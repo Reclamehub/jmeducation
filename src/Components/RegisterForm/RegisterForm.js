@@ -85,6 +85,7 @@ const ContactForm = () => {
           <label className="reg_label" htmlFor="name">
             Name
           </label>
+        
           <input
             className="reg_input_field"
             placeholder="Name"
@@ -93,7 +94,8 @@ const ContactForm = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-          />
+            />
+        
           {errors.name && <p className="error">{errors.name}</p>}
         </div>
 

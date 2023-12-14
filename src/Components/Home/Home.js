@@ -24,8 +24,8 @@ const Home = () => {
    }}>
 <Container  >
 <div className='banner_text_wrapper home_banner_wrapper' >
-<p className='banner_heading' style={{color:"#ffffff"}} >Empowering Futures, Transforming Lives</p>
-<p className='banner_subheading'>At JM Edu, we fuel aspirations with innovative education, empowering individuals to forge their desired futures through knowledge.</p>
+<p className='banner_heading' style={{color:"#ffffff"}} >Empowering Minds through Quality Education</p>
+<p className='banner_subheading'> Welcome to JM Edu – Excellent education that nourishes minds, unleashes potential, and creates future possibilities.</p>
 
 <div><Link to="/contact"><button className='let_button '>LET'S TALK</button></Link></div>
 </div>

@@ -6,8 +6,8 @@
   padding: 5% 0px;
 }
 .home_bg_div{
-padding-top: 14%;
-padding-bottom: 21%;
+padding-top: 10%;
+padding-bottom: 25%;
   color: #fff;
 
 }
@@ -49,16 +49,19 @@ padding-bottom: 21%;
   font-size: 16px;
   font-weight: 500;
 margin-top: 1.5rem;
+border-radius: 5px;
 }
 @media (max-width: 767px) {
   .banner_text_wrapper{
-    width: 60%;
+    width: 65%;
   }
   .page_heading{
   font-size: 16px;
+  line-height: normal;
 }
 .page_text{
   font-size: 12px;
+  margin-top: -5px;
 }
 .let_button{
   margin-top: 0px;

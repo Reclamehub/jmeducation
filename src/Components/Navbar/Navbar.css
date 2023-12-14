@@ -86,13 +86,13 @@ li {
     .nav__menu {
   position: fixed;
       top: 0;
-      margin-top: 5rem;
+      margin-top: 3.5rem;
       left: 0;
       height: 100%;
       width: 51vw;
       background: #3C427B;;
       padding-top: 2rem;
-      gap: 3rem;
+      gap: 2rem;
       flex-direction: column;
       justify-content: start;
       align-items: flex-start;
@@ -100,6 +100,9 @@ li {
       transform: translateX(-100%);
       transition: 0.5s ease-in;
       z-index: 1001;
+    }
+    .dropdownn{
+      margin-left: -15px;
     }
   }
   

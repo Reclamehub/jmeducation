@@ -4,7 +4,7 @@
     align-items: flex-start;
 }
 .connect_containerFluid{
-    padding: 100px 25px;
+    padding: 10% 25px;
 }
 .connect_form_img{
   width: 95%;
@@ -87,7 +87,7 @@ margin-left: auto;
     font-size: 12px;
    }
   .submit_btn {
-    margin-top: 2px;
+    margin-top: 5px;
     background-color: #FF2180;
     color: #fff;
     font-size: 18px;
@@ -105,7 +105,7 @@ margin-left: auto;
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 30px;
     }
     .connect_form_img{
       width: 90%;
@@ -131,13 +131,14 @@ width: 100%;
 height: auto;
  }
  .input_errorbox{
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 width: 100%;
 height: 100%;
 }
 .submit_btn {
   font-weight: 600;
-  margin-top: 2px;
+  margin-top: 10px;
+  margin-left: 7px;
   font-size: 14px;
   padding: 5px 12px;
 

@@ -40,6 +40,9 @@ margin: 1.5rem auto 0px auto;
 }
 
 @media (max-width: 767px) {
+    .course_container_fluid{
+        margin-top: 1rem;
+    }
     .courses_content_container{
         width: 90%;
         margin: 1rem auto 0px auto;
@@ -47,7 +50,7 @@ margin: 1.5rem auto 0px auto;
     .course_subheading_div{
         width: 100%;
         margin-top: -5px;
-        font-size: 14px;
+        font-size: 13.5px;
         font-weight: 500;
     }
 .course_card{
