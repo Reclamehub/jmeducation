@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import "./RegisterForm.css"
+import Swal from 'sweetalert2';
+import './RegisterForm.css';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -10,7 +11,6 @@ const ContactForm = () => {
   });
 
   const [errors, setErrors] = useState({});
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -38,12 +38,14 @@ const ContactForm = () => {
     }
 
     // Validate phone number (simple check for numeric characters)
-    const phoneRegex = /^\d+$/;
-    if (formData.phone.trim() && !phoneRegex.test(formData.phone)) {
+    const phoneRegex = /^\d{10}$/;
+    if (!formData.phone.trim()) {
+      newErrors.phone = 'Phone number is required';
+      isValid = false;
+    } else if (!phoneRegex.test(formData.phone)) {
       newErrors.phone = 'Invalid phone number';
       isValid = false;
     }
-
     setErrors(newErrors);
     return isValid;
   };
@@ -52,71 +54,85 @@ const ContactForm = () => {
     e.preventDefault();
 
     if (validateForm()) {
-      // You can integrate with Email.js here
-      emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+      emailjs
+        .send('service_uhfa1pi', 'template_45txf4i', formData, 'AGpC4tXFE36qGchQd')
         .then((response) => {
           console.log('Email sent:', response);
-          setIsSubmitted(true);
+          // Show success message using SweetAlert
+          Swal.fire('Success!', 'Email sent successfully!', 'success');
+          // Reset form fields after successful submission
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+          });
         })
         .catch((error) => {
           console.error('Email failed to send:', error);
+          // Show error message using SweetAlert
+          Swal.fire('Error!', 'Failed to send email. Please try again later.', 'error');
         });
     }
   };
 
   return (
-    <div className='reg_form_container'>
-      <div className='reg_form_text'>  <p>Unlock premium IIT-JEE/NEET- Medical / Foundation Courses By Creating your free account now.</p></div>
-      {isSubmitted ? (
-      <p >Thank you for submitting the form!</p>
-      ) : (
-        <form onSubmit={handleSubmit} className='reg_form'>
-          <div>
-            <label className='reg_label' htmlFor="name">Name</label>
-            <input
-            className='reg_input_field'
-            placeholder='Name'
-              type="text"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-            />
-            {errors.name && <p className="error">{errors.name}</p>}
-          </div>
+    <div className="reg_form_container">
+      <div className="reg_form_text">
+        <p>Unlock premium IIT-JEE/NEET- Medical / Foundation Courses By Creating your free account now.</p>
+      </div>
+      <form onSubmit={handleSubmit} className="reg_form">
+        <div>
+          <label className="reg_label" htmlFor="name">
+            Name
+          </label>
+          <input
+            className="reg_input_field"
+            placeholder="Name"
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+          />
+          {errors.name && <p className="error">{errors.name}</p>}
+        </div>
 
-          <div>
-            <label className='reg_label' htmlFor="email">Email</label>
-            <input
-            className='reg_input_field'
-            placeholder='Email'
-              type="email"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-            />
-            {errors.email && <p className="error">{errors.email}</p>}
-          </div>
+        <div>
+          <label className="reg_label" htmlFor="email">
+            Email
+          </label>
+          <input
+            className="reg_input_field"
+            placeholder="Email"
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          {errors.email && <p className="error">{errors.email}</p>}
+        </div>
 
-          <div>
-            <label className='reg_label' htmlFor="phone">Phone</label>
-            <input
-            className='reg_input_field'
+        <div>
+          <label className="reg_label" htmlFor="phone">
+            Phone
+          </label>
+          <input
+            className="reg_input_field"
+            placeholder="Mobile No"
+            type="tel"
+            id="phone"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+          />
+          {errors.phone && <p className="error">{errors.phone}</p>}
+        </div>
 
-            placeholder='Mobile No'
-              type="tel"
-              id="phone"
-              name="phone"
-              value={formData.phone}
-              onChange={handleChange}
-            />
-            {errors.phone && <p className="error">{errors.phone}</p>}
-          </div>
-
-          <button className='reg_submitbtn'  type="submit">Register</button>
-        </form>
-      )}
+        <button className="reg_submitbtn" type="submit">
+          Register
+        </button>
+      </form>
     </div>
   );
 };

@@ -73,26 +73,6 @@ const FormComponent = () => {
 <wrapper className="contact_top_wrapper">
   <p className='page_heading' style={{color:"#fff"}}>Contact Informations</p>
   <p className='ctop_text'>Looking to join JM Education and embark on an educational journey? Unsure about the programs, admissions, or services offered by us? Don't worry, we are here to assist you. Feel free to contact us today for personalized assistance.</p>
-{/* <img className="mt-2"src={require("../assets/email.png")} alt=""/> */}
-  {/* <div className="connectform_errorbox">
-  <div className="connectform_field_group">
-  <input
-  style={{fontSize:"11px"}}
-        required
-        type="email"
-        name="email"
-        className="connectform_form_fields"
-        value={formData.email}
-        onChange={handleChange}
-      />
-      <label className="connectform_form_labels" htmlFor="fnameInput">
-        Email
-      </label>
-    <button onClick={handleButtonClick} style={{width:"100%"}} className="custom_button">Send Request</button>
-    </div>
-
-  <div style={{marginLeft:"5px"}}>{errors.email && <p className="error">{errors.email}</p>}</div>
-</div> */}
 </wrapper>
     </Container>
     
@@ -100,7 +80,7 @@ const FormComponent = () => {
 <wrapper className="form_heading_wrapper">
   <p className='page_heading' style={{color:"#fff"}}>Get In Touch</p>
   <p className='page_text'>Send A Message</p>
-  <p className='page_text' style={{fontSize:"16px"}}>We are here to assist you in any way we can. Whether you have questions about our programs or want to inquire about admissions, feel free to reach out to us.</p>
+  <p className='page_text' >We are here to assist you in any way we can. Whether you have questions about our programs or want to inquire about admissions, feel free to reach out to us.</p>
 </wrapper>
    
     <form onSubmit={handleSubmit(onSubmit)} className='form'>

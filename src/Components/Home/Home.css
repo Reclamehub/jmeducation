@@ -62,9 +62,6 @@ width: 50px;
 }
 
 @media (max-width: 767px) {
-.home_cards_container{
-  gap: 10px;
-}
 .home_banner_wrapper{
   margin-top: 0px  !important;
 }
@@ -72,8 +69,8 @@ width: 50px;
   display: flex;
 justify-content: center;
   align-items: center;
- margin-top: 0%;
- gap: 5%;
+ margin-top: -11%;
+ gap: 2.5%;
 }
 /*  */
 .home_special_container{

@@ -12,7 +12,7 @@ li {
       justify-content: space-between;
       padding: 5px 1.5rem;
       height: auto;
-      background: #3C427B;;
+      background: #3C427B;
       color: #fff;
       position: fixed;
       top: 0;
@@ -64,13 +64,19 @@ li {
       justify-content: flex-end;
       align-items: center;
   }
+  .dropdown-menu{
+    background-color: #E1DBF0;  ;
+  }
   @media screen and (max-width: 768px) {
+    body{
+      margin-top: 3.5rem;
+  }
     .nav__toggler {
       display: block;
       cursor: pointer;
      }
     .nav__brand {
-   height: 70px;
+   height: 51px;
     }
   
     .nav__item{
@@ -83,8 +89,8 @@ li {
       margin-top: 5rem;
       left: 0;
       height: 100%;
-      width: 50vw;
-      background: #000;
+      width: 51vw;
+      background: #3C427B;;
       padding-top: 2rem;
       gap: 3rem;
       flex-direction: column;
@@ -105,7 +111,7 @@ li {
   
   /* Toggle Icon Animation */
   .toggle .line1 {
-      transform: rotate(-45deg) translate(-4px, 5px);
+      transform: rotate(-45deg) translate(-9px, 9px);
     }
     
     .toggle .line2 {
